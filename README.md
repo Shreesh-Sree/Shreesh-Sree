@@ -1,66 +1,154 @@
-# 👋 Hey, I'm Shreesh
+# 👋 Hi, I’m Shreesh
 
-I build things with code, break them, fix them, and repeat.  
-Focused on **software engineering**, **machine learning**, and building products that actually ship.
+Software Engineering–focused Machine Learning enthusiast building end-to-end, real-world systems — not just models that live in notebooks.
 
----
-
-## 🚀 What I Do
-- 🧠 Machine Learning & AI (practical, not just notebooks)
-- 💻 Software & Full-Stack Development
-- ☁️ Cloud, APIs, DevOps basics
-- 🎨 Side interest: clean UI, visuals, and creative tech
-
-I like systems that scale, code that’s readable, and ideas that solve real problems.
+I care about **clean code**, **practical ML**, and **shipping things that actually work**.
 
 ---
 
-## 🛠 Tech Stack
-**Languages**
-- Python, Java, JavaScript, SQL, C
+## 🧠 About Me
 
-**Frameworks & Tools**
-- FastAPI, Flask, Streamlit
-- React, Next.js, Tailwind CSS
-- Docker, Git, GitHub
-- VS Code, Linux
+- 🎓 AIML Engineering student
+- 💻 Strong interest in Software Engineering + ML systems
+- 🧩 I enjoy designing systems, APIs, and workflows more than chasing benchmarks
+- 🚀 Focused on learning by building, breaking, fixing, and improving
+- 📈 Long-term goal: become a strong engineer who understands ML deeply, not the other way around
 
-**Data / ML**
-- Pandas, NumPy, Scikit-learn
-- Computer Vision, Regression, Classification
-- Model deployment > just model accuracy
+I believe good engineering is boring, readable, and reliable — and that’s a compliment.
 
 ---
 
-## 📌 Current Focus
-- Becoming a solid **software engineer who understands ML deeply**
-- Building end-to-end projects (backend → frontend → deployment)
-- Writing cleaner, more maintainable code
-- Learning by doing, not just watching tutorials
+## 🛠️ Tech Stack
+
+### 💻 Programming Languages
+- Python  
+- Java  
+- JavaScript  
+- SQL  
+- C  
+
+### 🌐 Backend & APIs
+- FastAPI  
+- Flask  
+- RESTful API design  
+- Authentication & basic security patterns  
+
+### 🎨 Frontend
+- React.js  
+- Next.js  
+- HTML5, CSS3  
+- Tailwind CSS  
+
+### 📊 Data & Machine Learning
+- Pandas, NumPy  
+- Scikit-learn  
+- Regression, Classification, Clustering  
+- Computer Vision basics  
+- Feature engineering & evaluation  
+- Model deployment (because models are useless if users can’t access them)
+
+### ☁️ Cloud, DevOps & Tools
+- Git & GitHub  
+- Docker (basics)  
+- Linux  
+- VS Code  
+- Streamlit  
+- CI/CD fundamentals  
 
 ---
 
-## 🧩 Projects
-You’ll find:
-- ML apps with real deployment
-- Full-stack web projects
-- Experimentation with APIs, automation, and AI tools
+## 📌 What I’m Currently Focusing On
 
-Most repos are work-in-progress. That’s intentional.
+- Building **end-to-end ML applications**
+- Writing cleaner, maintainable backend code
+- Understanding system design fundamentals
+- Improving deployment workflows
+- Turning ideas into usable products
 
----
-
-## 📈 Philosophy
-- Simple > Fancy  
-- Shipping > Perfect  
-- Consistency beats motivation  
+Less theory. More execution.
 
 ---
 
-## 🤝 Let’s Connect
-- GitHub: you’re already here
-- Open to collabs, hackathons, and real-world problem solving
+## 🧩 Projects Overview
+
+You’ll find repositories related to:
+
+- 🔹 Machine Learning apps with real deployment
+- 🔹 Full-stack web applications
+- 🔹 API-driven systems
+- 🔹 Experimentation with AI tools and automation
+- 🔹 Learning repos documenting progress and concepts
+
+Some projects are works in progress — that’s intentional.  
+I value **iteration over perfection**.
 
 ---
 
-> “Still learning. Still building. Not done yet.”
+## 📂 Featured Project Types
+
+### 🤖 Machine Learning
+- Prediction systems
+- Classification pipelines
+- Real-world datasets
+- Focus on interpretability and usage
+
+### 🌍 Full-Stack Applications
+- API-first design
+- Clean frontend integration
+- Authentication & state handling
+- Scalable structure
+
+### ⚙️ Engineering Experiments
+- Automation
+- Testing
+- Tooling
+- Performance experiments
+
+---
+
+## 📈 GitHub Philosophy
+
+- Quality > Quantity  
+- Shipping > Overthinking  
+- Simplicity > Overengineering  
+- Progress > Perfection  
+
+I don’t chase green squares — I chase understanding.
+
+---
+
+## 📚 How I Learn
+- Build small → scale gradually
+- Read documentation (yes, actually)
+- Reverse-engineer good projects
+- Break things on purpose
+- Fix them properly
+
+---
+
+## 🤝 Open To
+- Collaborations
+- Hackathons
+- Open-source contributions
+- Learning-focused discussions
+- Real-world problem solving
+
+If you’re building something meaningful, I’m interested.
+
+---
+
+## 🔗 Connect With Me
+- GitHub: https://github.com/<your-username>
+- Portfolio: coming soon
+- LinkedIn: optional (add later)
+
+---
+
+## 🧠 Quote I Live By
+
+> “Good engineers aren’t the ones who know everything —  
+> they’re the ones who can figure things out.”
+
+---
+
+### 🚧 Still Learning. Still Building. Not Done Yet.
