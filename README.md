@@ -1,22 +1,32 @@
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=7aa2f7&text=Sreesanth%20R&height=100&fontSize=60&fontAlign=50" alt="Sreesanth R" />
-  <p style="color: #a9b1d6; font-family: sans-serif; font-size: 1.2rem;">
-    <strong>AIML Engineer & Full Stack Developer</strong>
-  </p>
+  <!-- Name Header using Doto Font & Neon Orange -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Doto&weight=900&size=100&pause=1000&color=FF5F1F&center=true&vCenter=true&width=1000&height=180&lines=Sreesanth+R" alt="Sreesanth R" />
+  </a>
   
+  <h2 style="color: #a9b1d6; font-family: sans-serif; font-weight: bold;">
+    AIML Engineer & Full Stack Developer
+  </h2>
+  
+  <br />
+
+  <!-- Bigger Buttons -->
   <p>
     <a href="https://github.com/Shreesh-Sree">
-      <img src="https://img.shields.io/badge/GitHub-181717?style=social&logo=github" alt="GitHub" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="40" alt="GitHub" />
     </a>
+    &nbsp;
     <a href="https://linkedin.com/in/sreesanth-sree">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin" alt="LinkedIn" />
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="40" alt="LinkedIn" />
     </a>
+    &nbsp;
     <a href="mailto:contact@shreesh-sree.dev">
-      <img src="https://img.shields.io/badge/Email-D14836?style=social&logo=gmail" alt="Email" />
+      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40" alt="Email" />
     </a>
+    &nbsp;
     <a href="https://shreesh-sree.dev">
-      <img src="https://img.shields.io/badge/Portfolio-000000?style=social&logo=vercel" alt="Portfolio" />
+      <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" height="40" alt="Portfolio" />
     </a>
   </p>
 </div>
@@ -24,7 +34,7 @@
 <br />
 
 <div align="center">
-  <p align="center" style="max-width: 600px;">
+  <p align="center" style="max-width: 700px; font-size: 1.2rem;">
     <i>Transforming complex problems into scalable, intelligent solutions.</i>
     <br/>
     Specializing in <strong>Machine Learning Pipelines</strong>, <strong>Full Stack Web Architecture</strong>, and <strong>IoT Systems</strong>.
@@ -44,49 +54,49 @@
   <!-- Programming Languages -->
   <table align="center" style="border: none;">
     <tr>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=python" width="48" /><br />Python</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=js" width="48" /><br />JavaScript</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ts" width="48" /><br />TypeScript</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=java" width="48" /><br />Java</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=c" width="48" /><br />C</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp" width="48" /><br />C++</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=python" width="60" /><br />Python</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=js" width="60" /><br />JavaScript</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=ts" width="60" /><br />TypeScript</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=java" width="60" /><br />Java</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=c" width="60" /><br />C</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=cpp" width="60" /><br />C++</td>
     </tr>
   </table>
 
   <!-- Web Technologies -->
   <table align="center" style="border: none;">
     <tr>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=react" width="48" /><br />React</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=nextjs" width="48" /><br />Next.js</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=nodejs" width="48" /><br />Node.js</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=express" width="48" /><br />Express</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=flutter" width="48" /><br />Flutter</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=html" width="48" /><br />HTML5</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=css" width="48" /><br />CSS3</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=react" width="60" /><br />React</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=nextjs" width="60" /><br />Next.js</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=nodejs" width="60" /><br />Node.js</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=express" width="60" /><br />Express</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=flutter" width="60" /><br />Flutter</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=html" width="60" /><br />HTML5</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=css" width="60" /><br />CSS3</td>
     </tr>
   </table>
 
   <!-- AI/ML & Data -->
   <table align="center" style="border: none;">
     <tr>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=tensorflow" width="48" /><br />TensorFlow</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=pytorch" width="48" /><br />PyTorch</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=sklearn" width="48" /><br />Scikit-Learn</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=opencv" width="48" /><br />OpenCV</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=pandas" width="48" /><br />Pandas</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=numpy" width="48" /><br />NumPy</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=tensorflow" width="60" /><br />TensorFlow</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=pytorch" width="60" /><br />PyTorch</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=sklearn" width="60" /><br />Scikit-Learn</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=opencv" width="60" /><br />OpenCV</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=pandas" width="60" /><br />Pandas</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=numpy" width="60" /><br />NumPy</td>
     </tr>
   </table>
 
   <!-- Tools & Cloud -->
   <table align="center" style="border: none;">
     <tr>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=git" width="48" /><br />Git</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=docker" width="48" /><br />Docker</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=linux" width="48" /><br />Linux</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mongodb" width="48" /><br />MongoDB</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=firebase" width="48" /><br />Firebase</td>
-      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=gcp" width="48" /><br />GCP</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=git" width="60" /><br />Git</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=docker" width="60" /><br />Docker</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=linux" width="60" /><br />Linux</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=mongodb" width="60" /><br />MongoDB</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=firebase" width="60" /><br />Firebase</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=gcp" width="60" /><br />GCP</td>
     </tr>
   </table>
 
@@ -137,11 +147,11 @@
   <br /> <br />
   
   <p>
-    <a href="https://leetcode.com/shreesh_sree"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black"/></a>
-    <a href="https://www.codechef.com/users/shreesh_exe_22"><img src="https://img.shields.io/badge/-CodeChef-5B4638?style=flat-square&logo=codechef&logoColor=white"/></a>
-    <a href="https://www.hackerrank.com/profile/shreesh_exe22"><img src="https://img.shields.io/badge/-HackerRank-2EC866?style=flat-square&logo=hackerrank&logoColor=white"/></a>
-    <a href="https://auth.geeksforgeeks.org/user/shreeshsree"><img src="https://img.shields.io/badge/-GeeksForGeeks-298D35?style=flat-square&logo=geeksforgeeks&logoColor=white"/></a>
-    <a href="https://www.naukri.com/code360/profile/shreeshsree"><img src="https://img.shields.io/badge/-CodeStudio-FF5722?style=flat-square&logo=codingninjas&logoColor=white"/></a>
+    <a href="https://leetcode.com/shreesh_sree"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+    <a href="https://www.codechef.com/users/shreesh_exe_22"><img src="https://img.shields.io/badge/-CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white"/></a>
+    <a href="https://www.hackerrank.com/profile/shreesh_exe22"><img src="https://img.shields.io/badge/-HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white"/></a>
+    <a href="https://auth.geeksforgeeks.org/user/shreeshsree"><img src="https://img.shields.io/badge/-GeeksForGeeks-298D35?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/></a>
+    <a href="https://www.naukri.com/code360/profile/shreeshsree"><img src="https://img.shields.io/badge/-CodeStudio-FF5722?style=for-the-badge&logo=codingninjas&logoColor=white"/></a>
   </p>
   
   <br />
