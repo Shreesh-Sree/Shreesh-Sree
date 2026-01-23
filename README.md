@@ -2,7 +2,7 @@
 <div align="center">
   <!-- Name Header using Doto Font & Neon Orange -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Doto&weight=900&size=100&pause=1000&color=FF5F1F&center=true&vCenter=true&width=1000&height=180&lines=Sreesanth+R" alt="Sreesanth R" />
+    <img src="https://readme-typing-svg.herokuapp.com?weight=900&size=100&pause=1000&color=FF5F1F&center=true&vCenter=true&width=1000&height=180&lines=Sreesanth+R" alt="Sreesanth R" />
   </a>
   
   <h2 style="color: #a9b1d6; font-family: sans-serif; font-weight: bold;">
@@ -90,8 +90,8 @@
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=pytorch" width="60" /><br />PyTorch</td>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=sklearn" width="60" /><br />Scikit-Learn</td>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=opencv" width="60" /><br />OpenCV</td>
-      <td align="center" width="110"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="60" /><br />Pandas</td>
-      <td align="center" width="110"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="60" /><br />NumPy</td>
+      <td align="center" width="110"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="60" /><br />Pandas</td>
+      <td align="center" width="110"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="60" /><br />NumPy</td>
     </tr>
   </table>
 
@@ -158,7 +158,7 @@
       <!-- LeetCode Stats -->
       <td align="center" width="50%">
         <a href="https://leetcode.com/shreesh_sree">
-          <img src="https://leetcard.jacoblin.cool/shreesh_sree?theme=dark&font=Inter&ext=heatmap" width="100%" />
+          <img src="https://leetcard.jacoblin.cool/shreesh_sree?theme=dark&ext=heatmap" width="100%" />
         </a>
       </td>
       <!-- CodeForces Stats -->
