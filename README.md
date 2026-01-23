@@ -170,6 +170,12 @@
         </a>
       </td>
     </tr>
+    <tr>
+      <!-- Top Languages -->
+      <td align="center" colspan="2">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreesh-Sree&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%" />
+      </td>
+    </tr>
   </table>
 
   <br />
