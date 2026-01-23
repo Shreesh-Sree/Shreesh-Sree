@@ -151,9 +151,7 @@
       </td>
       <!-- Streak Stats -->
       <td align="center" width="50%">
-        <a href="https://git.io/streak-stats">
-          <img src="https://streak-stats.demolab.com/?user=Shreesh-Sree&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
-        </a>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreesh-Sree&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%" />
       </td>
     </tr>
     <tr>
@@ -170,12 +168,7 @@
         </a>
       </td>
     </tr>
-    <tr>
-      <!-- Top Languages -->
-      <td align="center" colspan="2">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreesh-Sree&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%" />
-      </td>
-    </tr>
+
   </table>
 
   <br />
