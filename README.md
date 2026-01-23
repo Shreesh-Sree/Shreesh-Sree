@@ -128,23 +128,47 @@
 
 ---
 
-<div align="center">
-  
   ### 📊 Coding Activity
 
   <br />
 
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shreesh-Sree&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=c0caf5&area=true&hide_border=true" width="100%" />
+  <!-- Stats Grid -->
+  <table align="center" style="border: none;">
+    <tr>
+      <!-- GitHub Stats -->
+      <td align="center" width="50%">
+        <img src="https://github-readme-stats.vercel.app/api?username=Shreesh-Sree&theme=tokyonight&show_icons=true&hide_border=true&count_private=true" width="100%" />
+      </td>
+      <!-- Streak Stats -->
+      <td align="center" width="50%">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreesh-Sree&theme=tokyonight&hide_border=true" width="100%" />
+      </td>
+    </tr>
+    <tr>
+      <!-- LeetCode Stats -->
+      <td align="center" width="50%">
+        <a href="https://leetcode.com/shreesh_sree">
+          <img src="https://leetcard.jacoblin.cool/shreesh_sree?theme=dark&font=Inter&ext=heatmap" width="100%" />
+        </a>
+      </td>
+      <!-- CodeForces Stats -->
+      <td align="center" width="50%">
+        <a href="https://codeforces.com/profile/Shreesh_exe">
+          <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Shreesh_exe&theme=tokyonight&hide_border=true&no-bg=true" width="100%" />
+        </a>
+      </td>
+    </tr>
+  </table>
 
   <br />
-  <br />
 
-  <!-- CodeForces Big Card -->
-  <a href="https://codeforces.com/profile/Shreesh_exe">
-     <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Shreesh_exe&theme=tokyonight&hide_border=true&no-bg=true" height="180" />
+  <!-- Activity Graph -->
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shreesh-Sree&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=c0caf5&area=true&hide_border=true" width="100%" />
   </a>
 
-  <br /> <br />
+  <br />
+  <br />
   
   <p>
     <a href="https://leetcode.com/shreesh_sree"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
