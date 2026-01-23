@@ -151,7 +151,9 @@
       </td>
       <!-- Streak Stats -->
       <td align="center" width="50%">
-        <img src="[![GitHub Streak](https://streak-stats.demolab.com/?user=Shreesh-Sree)](https://git.io/streak-stats)" width="100%" />
+        <a href="https://git.io/streak-stats">
+          <img src="https://streak-stats.demolab.com/?user=Shreesh-Sree&theme=tokyonight&hide_border=true" width="100%" alt="GitHub Streak" />
+        </a>
       </td>
     </tr>
     <tr>
