@@ -83,8 +83,8 @@
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=pytorch" width="60" /><br />PyTorch</td>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=sklearn" width="60" /><br />Scikit-Learn</td>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=opencv" width="60" /><br />OpenCV</td>
-      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=pandas" width="60" /><br />Pandas</td>
-      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=numpy" width="60" /><br />NumPy</td>
+      <td align="center" width="110"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pandas/pandas-original.svg" width="60" /><br />Pandas</td>
+      <td align="center" width="110"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/numpy/numpy-original.svg" width="60" /><br />NumPy</td>
     </tr>
   </table>
 
