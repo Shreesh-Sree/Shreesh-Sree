@@ -41,28 +41,54 @@
 
   <br />
 
-  <!-- Languages -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,js,ts,java,c,cpp,html,css&perline=8" />
-  </a>
-  <br /> <br />
+  <!-- Programming Languages -->
+  <table align="center" style="border: none;">
+    <tr>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=python" width="48" /><br />Python</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=js" width="48" /><br />JavaScript</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ts" width="48" /><br />TypeScript</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=java" width="48" /><br />Java</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=c" width="48" /><br />C</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp" width="48" /><br />C++</td>
+    </tr>
+  </table>
 
-  <!-- Frameworks & App Dev -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,nodejs,express,firebase,streamlit&perline=7" />
-  </a>
-  <br /> <br />
+  <!-- Web Technologies -->
+  <table align="center" style="border: none;">
+    <tr>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=react" width="48" /><br />React</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=nextjs" width="48" /><br />Next.js</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=nodejs" width="48" /><br />Node.js</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=express" width="48" /><br />Express</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=flutter" width="48" /><br />Flutter</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=html" width="48" /><br />HTML5</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=css" width="48" /><br />CSS3</td>
+    </tr>
+  </table>
 
   <!-- AI/ML & Data -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,pandas,numpy,mongodb,fastapi,flask&perline=9" />
-  </a>
-  <br /> <br />
+  <table align="center" style="border: none;">
+    <tr>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=tensorflow" width="48" /><br />TensorFlow</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=pytorch" width="48" /><br />PyTorch</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=sklearn" width="48" /><br />Scikit-Learn</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=opencv" width="48" /><br />OpenCV</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=pandas" width="48" /><br />Pandas</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=numpy" width="48" /><br />NumPy</td>
+    </tr>
+  </table>
 
-  <!-- Tools & Platform -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,arduino,linux,docker,gcp&perline=8" />
-  </a>
+  <!-- Tools & Cloud -->
+  <table align="center" style="border: none;">
+    <tr>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=git" width="48" /><br />Git</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=docker" width="48" /><br />Docker</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=linux" width="48" /><br />Linux</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mongodb" width="48" /><br />MongoDB</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=firebase" width="48" /><br />Firebase</td>
+      <td align="center" width="90"><img src="https://skillicons.dev/icons?i=gcp" width="48" /><br />GCP</td>
+    </tr>
+  </table>
 
 </div>
 
@@ -103,17 +129,15 @@
   <br />
   <br />
 
-  <a href="https://leetcode.com/shreesh_sree">
-    <img src="https://leetcode-stats-two.vercel.app/api?username=shreesh_sree&theme=tokyonight&hide_border=true&icon_set=2&no-bg=true" height="150" />
-  </a>
-  &nbsp; &nbsp;
+  <!-- CodeForces Big Card -->
   <a href="https://codeforces.com/profile/Shreesh_exe">
-     <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Shreesh_exe&theme=tokyonight&hide_border=true&no-bg=true" height="150" />
+     <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Shreesh_exe&theme=tokyonight&hide_border=true&no-bg=true" height="180" />
   </a>
 
   <br /> <br />
   
   <p>
+    <a href="https://leetcode.com/shreesh_sree"><img src="https://img.shields.io/badge/-LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black"/></a>
     <a href="https://www.codechef.com/users/shreesh_exe_22"><img src="https://img.shields.io/badge/-CodeChef-5B4638?style=flat-square&logo=codechef&logoColor=white"/></a>
     <a href="https://www.hackerrank.com/profile/shreesh_exe22"><img src="https://img.shields.io/badge/-HackerRank-2EC866?style=flat-square&logo=hackerrank&logoColor=white"/></a>
     <a href="https://auth.geeksforgeeks.org/user/shreeshsree"><img src="https://img.shields.io/badge/-GeeksForGeeks-298D35?style=flat-square&logo=geeksforgeeks&logoColor=white"/></a>
