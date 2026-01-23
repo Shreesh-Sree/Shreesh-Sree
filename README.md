@@ -47,12 +47,12 @@
 
 <div align="center">
   
-  ### 🛠️ Technical Arsenal
+  ### Technical Arsenal
 
   <br />
 
   <!-- Programming Languages -->
-  <h3 align="center">👨‍💻 Programming Languages</h3>
+  <h3 align="center">Programming Languages</h3>
   <table align="center" style="border: none;">
     <tr>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=python" width="60" /><br />Python</td>
@@ -67,7 +67,7 @@
   <br />
 
   <!-- Web Technologies -->
-  <h3 align="center">🌐 Web Technologies</h3>
+  <h3 align="center">Web Technologies</h3>
   <table align="center" style="border: none;">
     <tr>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=react" width="60" /><br />React</td>
@@ -83,7 +83,7 @@
   <br />
 
   <!-- AI/ML & Data -->
-  <h3 align="center">🤖 AI, ML & Data Science</h3>
+  <h3 align="center">AI, ML & Data Science</h3>
   <table align="center" style="border: none;">
     <tr>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=tensorflow" width="60" /><br />TensorFlow</td>
@@ -98,7 +98,7 @@
   <br />
 
   <!-- Tools & Cloud -->
-  <h3 align="center">🛠️ Tools & Cloud Architecture</h3>
+  <h3 align="center">Tools & Cloud Architecture</h3>
   <table align="center" style="border: none;">
     <tr>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=git" width="60" /><br />Git</td>
@@ -116,7 +116,7 @@
 
 ---
 
-### 🔭 Featured Projects
+### Featured Projects
 
 | **Project** | **Stack** | **Description** |
 |:------------|:----------|:----------------|
@@ -126,7 +126,7 @@
 
 <br />
 
-### 💼 Professional Experience
+### Professional Experience
 
 | Role | Organization | Focus |
 |:-----|:-------------|:------|
@@ -138,7 +138,7 @@
 
 ---
 
-  ### 📊 Coding Activity
+  ### Coding Activity
 
   <br />
 
