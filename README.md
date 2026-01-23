@@ -151,7 +151,7 @@
       </td>
       <!-- Streak Stats -->
       <td align="center" width="50%">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreesh-Sree&theme=tokyonight&hide_border=true" width="100%" />
+        <img src="https://streak-stats.demolab.com?user=Shreesh-Sree&theme=tokyonight&hide_border=true" width="100%" />
       </td>
     </tr>
     <tr>
