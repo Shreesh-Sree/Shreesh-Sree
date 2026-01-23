@@ -52,6 +52,7 @@
   <br />
 
   <!-- Programming Languages -->
+  <h3 align="center">👨‍💻 Programming Languages</h3>
   <table align="center" style="border: none;">
     <tr>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=python" width="60" /><br />Python</td>
@@ -63,7 +64,10 @@
     </tr>
   </table>
 
+  <br />
+
   <!-- Web Technologies -->
+  <h3 align="center">🌐 Web Technologies</h3>
   <table align="center" style="border: none;">
     <tr>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=react" width="60" /><br />React</td>
@@ -76,7 +80,10 @@
     </tr>
   </table>
 
+  <br />
+
   <!-- AI/ML & Data -->
+  <h3 align="center">🤖 AI, ML & Data Science</h3>
   <table align="center" style="border: none;">
     <tr>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=tensorflow" width="60" /><br />TensorFlow</td>
@@ -88,7 +95,10 @@
     </tr>
   </table>
 
+  <br />
+
   <!-- Tools & Cloud -->
+  <h3 align="center">🛠️ Tools & Cloud Architecture</h3>
   <table align="center" style="border: none;">
     <tr>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=git" width="60" /><br />Git</td>
@@ -96,10 +106,10 @@
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=linux" width="60" /><br />Linux</td>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=mongodb" width="60" /><br />MongoDB</td>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=firebase" width="60" /><br />Firebase</td>
+      <td align="center" width="110"><img src="https://skillicons.dev/icons?i=supabase" width="60" /><br />Supabase</td>
       <td align="center" width="110"><img src="https://skillicons.dev/icons?i=gcp" width="60" /><br />GCP</td>
     </tr>
   </table>
-
 </div>
 
 <br />
