@@ -127,6 +127,57 @@
 
 <br />
 
+<!-- Competitive Programming Section -->
+<div align="center">
+  <h2>🏆 Competitive Programming & Problem Solving</h2>
+  
+  <!-- LeetCode & CodeForces Graphs -->
+  <table align="center" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="50%" align="center">
+        <a href="https://leetcode.com/shreesh_sree">
+          <img src="https://leetcode-stats-two.vercel.app/api?username=shreesh_sree&theme=tokyonight&hide_border=true&icon_set=2" width="95%" />
+        </a>
+      </td>
+      <td width="50%" align="center">
+        <a href="https://codeforces.com/profile/Shreesh_exe">
+          <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Shreesh_exe&theme=tokyonight&hide_border=true&no-bg=true" width="95%" />
+        </a>
+      </td>
+    </tr>
+  </table>
+  
+  <br />
+  
+  <!-- Other Platforms Badges -->
+  <p>
+    <!-- CodeChef -->
+    <a href="https://www.codechef.com/users/shreesh_exe_22">
+      <img src="https://img.shields.io/badge/CodeChef-shreesh__exe__22-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+    </a>
+    <!-- HackerRank -->
+    <a href="https://www.hackerrank.com/profile/shreesh_exe22">
+      <img src="https://img.shields.io/badge/HackerRank-shreesh__exe__22-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />
+    </a>
+    <!-- GeeksForGeeks -->
+    <a href="https://auth.geeksforgeeks.org/user/shreeshsree">
+      <img src="https://img.shields.io/badge/GeeksForGeeks-shreeshsree-298D35?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
+    </a>
+  </p>
+  <p>
+    <!-- CodeStudio (Naukri) -->
+    <a href="https://www.naukri.com/code360/profile/shreeshsree">
+      <img src="https://img.shields.io/badge/CodeStudio-shreeshsree-FF5722?style=for-the-badge&logo=codingninjas&logoColor=white" />
+    </a>
+    <!-- AtCoder -->
+    <a href="https://atcoder.jp/users/Shreesh_exe">
+      <img src="https://img.shields.io/badge/AtCoder-Shreesh__exe-000000?style=for-the-badge&logo=atcoder&logoColor=white" />
+    </a>
+  </p>
+</div>
+
+<br />
+
 <!-- Footer -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&fontSize=90" width="100%" />
