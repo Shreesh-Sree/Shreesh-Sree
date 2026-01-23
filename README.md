@@ -1,194 +1,129 @@
 
-<!-- Header Animation -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hello%20World!&fontSize=70&animation=fadeIn&fontAlignY=35&desc=Welcome%20to%20Shreesh's%20Profile&descAlignY=60&descAlign=50" width="100%" />
-</div>
-
-<!-- Trophies -->
-<div align="center">
-  <br />
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Shreesh-Sree&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
-  </a>
-  <br />
-</div>
-
-<!-- Typing Intro & About Me Grid -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=33CCFF&center=true&vCenter=true&width=500&lines=Building+Scalable+ML+Systems;Architecting+Robust+APIs;Designing+For+The+Future;Automating+Everything" alt="Typing SVG" />
-  </a>
-</div>
-
-<br />
-
-<table align="center" border="0" cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="55%" valign="top">
-      <h2>🧠 About Me</h2>
-      <blockquote>
-        <p>I'm a <strong>Machine Learning Engineer</strong> and <strong>System Architect</strong> obsessed with building things that <em>work</em>.</p>
-      </blockquote>
-      <br />
-      <ul>
-        <li>🔭 I’m currently building <strong>Production-Grade ML Systems</strong></li>
-        <li>🌱 I’m dedicated to <strong>Advanced Software Engineering Patterns</strong></li>
-        <li>� I’m looking to collaborate on <strong>Open Source AI Tools</strong></li>
-        <li>💬 Ask me about <strong>FastAPI, Docker, & RAG Pipelines</strong></li>
-        <li>⚡ Fun fact: <strong>I prefer clean code over complex algorithms</strong></li>
-      </ul>
-      <br />
-      <div align="left">
-        <a href="mailto:contact@shreesh-sree.dev">
-          <img src="https://img.shields.io/badge/Email-Contact%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-        </a>
-        <a href="https://linkedin.com/in/sreesanth-sree">
-          <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-        </a>
-      </div>
-    </td>
-    <td width="5%" />
-    <td width="40%" valign="top">
-      <h2>🚀 Rapid Stats</h2>
-      <img src="https://github-readme-stats.vercel.app/api?username=Shreesh-Sree&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&locale=en" width="100%" />
-      <br />
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreesh-Sree&theme=tokyonight&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="100%" />
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<!-- Tech Stack -->
-<div align="center">
-  <h2>🛠️ Arsenal & Tools</h2>
-  <br />
-  <p>
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=python,rust,go,cpp,java,js,ts,php&perline=8" />
-    </a>
-    <br />
-    <br />
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,pandas,numpy,scipy,matplotlib&perline=8" />
-    </a>
-    <br />
-    <br />
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=fastapi,flask,django,graphql,postgres,redis,mongodb,mysql&perline=8" />
-    </a>
-    <br />
-    <br />
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,githubactions,aws,gcp,azure,linux&perline=8" />
-    </a>
-    <br />
-    <br />
-    <a href="https://skillicons.dev">
-      <img src="https://skillicons.dev/icons?i=git,github,vscode,vim,neovim,bash,nginx,cloudflare&perline=8" />
-    </a>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=7aa2f7&text=Sreesanth%20R&height=100&fontSize=60&fontAlign=50" alt="Sreesanth R" />
+  <p style="color: #a9b1d6; font-family: sans-serif; font-size: 1.2rem;">
+    <strong>AIML Engineer & Full Stack Developer</strong>
   </p>
-</div>
-
-<br />
-
-<!-- Activity Graph -->
-<div align="center">
-  <h2>⚡ Coding Frequency</h2>
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shreesh-Sree&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=c0caf5&area=true&hide_border=true" />
-  </a>
-</div>
-
-<br />
-
-<!-- Most Used Languages & WakaTime -->
-<table align="center">
-  <tr>
-    <td width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreesh-Sree&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" width="100%" />
-    </td>
-    <td width="50%">
-      <!-- WakaTime Placeholder - Requires setup -->
-      <a href="https://wakatime.com/@Shreesh-Sree">
-        <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Shreesh-Sree&theme=tokyonight&hide_border=true&layout=compact" />
-      </a>
-      <!-- Note: If WakaTime isn't set up, this might error. Fallback to Snake if preferred. -->
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<!-- Snake Animation -->
-<div align="center">
-  <img src="https://github.com/platinum0x/platinum0x/raw/output/github-contribution-grid-snake.svg" width="100%" />
-</div>
-
-<br />
-
-<!-- Competitive Programming Section -->
-<div align="center">
-  <h2>🏆 Competitive Programming & Problem Solving</h2>
   
-  <!-- LeetCode & CodeForces Graphs -->
-  <table align="center" border="0" cellpadding="0" cellspacing="0">
-    <tr>
-      <td width="50%" align="center">
-        <a href="https://leetcode.com/shreesh_sree">
-          <img src="https://leetcode-stats-two.vercel.app/api?username=shreesh_sree&theme=tokyonight&hide_border=true&icon_set=2" width="95%" />
-        </a>
-      </td>
-      <td width="50%" align="center">
-        <a href="https://codeforces.com/profile/Shreesh_exe">
-          <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Shreesh_exe&theme=tokyonight&hide_border=true&no-bg=true" width="95%" />
-        </a>
-      </td>
-    </tr>
-  </table>
-  
-  <br />
-  
-  <!-- Other Platforms Badges -->
   <p>
-    <!-- CodeChef -->
-    <a href="https://www.codechef.com/users/shreesh_exe_22">
-      <img src="https://img.shields.io/badge/CodeChef-shreesh__exe__22-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
-    </a>
-    <!-- HackerRank -->
-    <a href="https://www.hackerrank.com/profile/shreesh_exe22">
-      <img src="https://img.shields.io/badge/HackerRank-shreesh__exe__22-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" />
-    </a>
-    <!-- GeeksForGeeks -->
-    <a href="https://auth.geeksforgeeks.org/user/shreeshsree">
-      <img src="https://img.shields.io/badge/GeeksForGeeks-shreeshsree-298D35?style=for-the-badge&logo=geeksforgeeks&logoColor=white" />
-    </a>
-  </p>
-  <p>
-    <!-- CodeStudio (Naukri) -->
-    <a href="https://www.naukri.com/code360/profile/shreeshsree">
-      <img src="https://img.shields.io/badge/CodeStudio-shreeshsree-FF5722?style=for-the-badge&logo=codingninjas&logoColor=white" />
-    </a>
-    <!-- AtCoder -->
-    <a href="https://atcoder.jp/users/Shreesh_exe">
-      <img src="https://img.shields.io/badge/AtCoder-Shreesh__exe-000000?style=for-the-badge&logo=atcoder&logoColor=white" />
-    </a>
-  </p>
-</div>
-
-<br />
-
-<!-- Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&fontSize=90" width="100%" />
-  
-  <br />
-  
-  <p>"Code is like humor. When you have to explain it, it’s bad."</p>
-  
-  <p align="center">
     <a href="https://github.com/Shreesh-Sree">
-      <img src="https://komarev.com/ghpvc/?username=Shreesh-Sree&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
+      <img src="https://img.shields.io/badge/GitHub-181717?style=social&logo=github" alt="GitHub" />
+    </a>
+    <a href="https://linkedin.com/in/sreesanth-sree">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=social&logo=linkedin" alt="LinkedIn" />
+    </a>
+    <a href="mailto:contact@shreesh-sree.dev">
+      <img src="https://img.shields.io/badge/Email-D14836?style=social&logo=gmail" alt="Email" />
+    </a>
+    <a href="https://shreesh-sree.dev">
+      <img src="https://img.shields.io/badge/Portfolio-000000?style=social&logo=vercel" alt="Portfolio" />
     </a>
   </p>
+</div>
+
+<br />
+
+<div align="center">
+  <p align="center" style="max-width: 600px;">
+    <i>Transforming complex problems into scalable, intelligent solutions.</i>
+    <br/>
+    Specializing in <strong>Machine Learning Pipelines</strong>, <strong>Full Stack Web Architecture</strong>, and <strong>IoT Systems</strong>.
+  </p>
+</div>
+
+<br />
+
+---
+
+<div align="center">
+  
+  ### 🛠️ Technical Arsenal
+
+  <br />
+
+  <!-- Languages -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,js,ts,java,c,cpp,html,css&perline=8" />
+  </a>
+  <br /> <br />
+
+  <!-- Frameworks & App Dev -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,nextjs,flutter,nodejs,express,firebase,streamlit&perline=7" />
+  </a>
+  <br /> <br />
+
+  <!-- AI/ML & Data -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,pandas,numpy,mongodb,fastapi,flask&perline=9" />
+  </a>
+  <br /> <br />
+
+  <!-- Tools & Platform -->
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,figma,arduino,linux,docker,gcp&perline=8" />
+  </a>
+
+</div>
+
+<br />
+
+---
+
+### 🔭 Featured Projects
+
+| **Project** | **Stack** | **Description** |
+|:------------|:----------|:----------------|
+| **AI Smart Glove** | `ESP32` `TensorFlow` `Flutter` | Real-time sign language to speech/text conversion glove with **95% accuracy**. Dual-mode offline edge AI & cloud recognition. |
+| **FisherMate AI** | `React` `Firebase` `Gemini API` | Multilingual AI platform for fisherfolk with weather visualization and conversational AI. |
+| **Brain Tumor Detection** | `Python` `CNN` `Keras` | Medical imaging analysis system achieving **94% accuracy** on MRI scans using advanced augmentation. |
+
+<br />
+
+### 💼 Professional Experience
+
+| Role | Organization | Focus |
+|:-----|:-------------|:------|
+| **Web Development Intern** | **MotionCut** | Frontend Development, React.js, UI/UX Optimization |
+| **Machine Learning Intern** | **Coincent / Fox Trading** | Predictive Analytics, Data Preprocessing, Feature Engineering |
+| **AI Intern** | **Edunet (Microsoft/SAP)** | AI Prototyping, TensorFlow solutions |
+
+<br />
+
+---
+
+<div align="center">
+  
+  ### 📊 Coding Activity
+
+  <br />
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Shreesh-Sree&bg_color=1a1b27&color=7aa2f7&line=7aa2f7&point=c0caf5&area=true&hide_border=true" width="100%" />
+
+  <br />
+  <br />
+
+  <a href="https://leetcode.com/shreesh_sree">
+    <img src="https://leetcode-stats-two.vercel.app/api?username=shreesh_sree&theme=tokyonight&hide_border=true&icon_set=2&no-bg=true" height="150" />
+  </a>
+  &nbsp; &nbsp;
+  <a href="https://codeforces.com/profile/Shreesh_exe">
+     <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Shreesh_exe&theme=tokyonight&hide_border=true&no-bg=true" height="150" />
+  </a>
+
+  <br /> <br />
+  
+  <p>
+    <a href="https://www.codechef.com/users/shreesh_exe_22"><img src="https://img.shields.io/badge/-CodeChef-5B4638?style=flat-square&logo=codechef&logoColor=white"/></a>
+    <a href="https://www.hackerrank.com/profile/shreesh_exe22"><img src="https://img.shields.io/badge/-HackerRank-2EC866?style=flat-square&logo=hackerrank&logoColor=white"/></a>
+    <a href="https://auth.geeksforgeeks.org/user/shreeshsree"><img src="https://img.shields.io/badge/-GeeksForGeeks-298D35?style=flat-square&logo=geeksforgeeks&logoColor=white"/></a>
+    <a href="https://www.naukri.com/code360/profile/shreeshsree"><img src="https://img.shields.io/badge/-CodeStudio-FF5722?style=flat-square&logo=codingninjas&logoColor=white"/></a>
+  </p>
+  
+  <br />
+
+</div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer&fontSize=0" width="100%" />
 </div>
