@@ -1,147 +1,370 @@
-<h1 align="left" id="shreesh-title">:wave: Hello there! I'm Sreesanth R</h1>
-<h3 align="left">Software Engineer specializing in Backend Services, AI Systems, and Cloud-Native Workflows</h3>
 
-<p align="left">
-  <a href="https://github.com/Shreesh-Sree/Shreesh-Sree"><img src="https://komarev.com/ghpvc/?username=Shreesh-Sree&color=c15f3c" alt="page views" /></a>
-  <a href="https://www.shreesh-sree.dev"><img alt="Website" src="https://img.shields.io/website?url=https%3A%2F%2Fwww.shreesh-sree.dev&label=website&color=c15f3c"></a>
-  <a href="https://github.com/Shreesh-Sree?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/Shreesh-Sree?style=flat&logo=github&color=c15f3c"></a>
-  <a href="https://www.linkedin.com/in/sreesanth-sree"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=flat&logo=linkedin&logoColor=white"></a>
-</p>
+```
+ _____ _            ____                            _               _____                   _             _ 
+|_   _| |__   ___  |  _ \ _ __ ___  __ _ _ __ ___ (_)_ __   __ _  |_   _|__ _ __ _ __ ___ (_)_ __   __ _| |
+  | | | '_ \ / _ \ | | | | '__/ _ \/ _` | '_ ` _ \| | '_ \ / _` |   | |/ _ \ '__| '_ ` _ \| | '_ \ / _` | |
+  | | | | | |  __/ | |_| | | |  __/ (_| | | | | | | | | | | (_| |   | |  __/ |  | | | | | | | | | | (_| | |
+  |_| |_| |_|\___| |____/|_|  \___|\__,_|_| |_| |_|_|_| |_|\__, |   |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
+                                                             |___/                                            
+```
 
-<a href="#shreesh-title"><img src="https://github-readme-stats.vercel.app/api?username=Shreesh-Sree&show_icons=true&theme=transparent&title_color=c15f3c&icon_color=c15f3c&text_color=888888&hide_border=true" alt="Shreesh-Sree's GitHub Stats" align="right" width="400" /></a>
+<div align="center">
 
-- :office: &nbsp;I'm currently seeking **Software Engineering Internships & Backend / AI Engineering roles**
-- :seedling: &nbsp;I’m currently building **retrieval/orchestration systems & event-driven apps on AWS**
-- :speech_balloon: &nbsp;I like to talk about **System Design, LLM pipelines, and Cloud Infrastructure**
-- :book: &nbsp;Learn more about my projects on my **[portfolio](https://www.shreesh-sree.dev)**
-- :mailbox: &nbsp;Ask me anything on my **[issues page](https://github.com/Shreesh-Sree/Shreesh-Sree/issues)**
-- :computer: &nbsp;Connect with me on **[LinkedIn](https://www.linkedin.com/in/sreesanth-sree)**
+```
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░                                                                            ░░
+░░   ┌─────────────────────────────────────────────────────────────────────┐   ░░
+░░   │                                                                     │   ░░
+░░   │   > BOOT SEQUENCE INTERRUPTED                                       │   ░░
+░░   │   > ENTERING DREAM_STATE...                                         │   ░░
+░░   │   > REALITY.EXE HAS STOPPED RESPONDING                             │   ░░
+░░   │                                                                     │   ░░
+░░   │   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100%                       │   ░░
+░░   │                                                                     │   ░░
+░░   │   WELCOME TO THE MIND OF                                            │   ░░
+░░   │                                                                     │   ░░
+░░   │   ███████╗██████╗ ███████╗███████╗███████╗ █████╗ ███╗   ██╗████████╗  ░░
+░░   │   ██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗████╗  ██║╚══██╔══╝  ░░
+░░   │   ███████╗██████╔╝█████╗  █████╗  ███████╗███████║██╔██╗ ██║   ██║     ░░
+░░   │   ╚════██║██╔══██╗██╔══╝  ██╔══╝  ╚════██║██╔══██║██║╚██╗██║   ██║     ░░
+░░   │   ███████║██║  ██║███████╗███████╗███████║██║  ██║██║ ╚████║   ██║     ░░
+░░   │   ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝     ░░
+░░   │                                                                     │   ░░
+░░   └─────────────────────────────────────────────────────────────────────┘   ░░
+░░                                                                            ░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+```
+
+</div>
+
+---
 
 <br>
 
-<h2 align="left" id="shreesh-tech">Favorite Tech</h2>
+```
+$ whoami
+```
 
-> Tools, languages, and other things that I like to work with.
+```
+ERROR: IDENTITY IS A SPECTRUM, NOT A STRING
+
+    but if you insist...
+
+    ╔═══════════════════════════════════════════════════════╗
+    ║  SREESANTH R                                         ║
+    ║  ─────────────────────────────────────────────────── ║
+    ║  ROLE    : Backend & AI Engineer                     ║
+    ║  ZONE    : Chennai, India  [UTC+5:30]                ║
+    ║  STATE   : Building things that think                ║
+    ║  STATUS  : The code is dreaming                      ║
+    ╚═══════════════════════════════════════════════════════╝
+
+    I build retrieval systems and event-driven architectures.
+    I make machines orchestrate themselves.
+    I watch them dream in vector spaces.
+```
+
+<br>
+
+---
+
+<br>
+
+```
+$ cat /proc/consciousness/stack.trace
+```
+
+<br>
 
 <table>
-  <tr>
-    <td align="center" width="96">
-      <a href="#shreesh-tech"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="48" height="48" alt="Python" /></a>
-      <br>Python
-    </td>
-    <td align="center" width="96">
-      <a href="#shreesh-tech"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" width="48" height="48" alt="FastAPI" /></a>
-      <br>FastAPI
-    </td>
-    <td align="center" width="96">
-      <a href="#shreesh-tech"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="48" height="48" alt="TypeScript" /></a>
-      <br>TypeScript
-    </td>
-    <td align="center" width="96">
-      <a href="#shreesh-tech"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="48" height="48" alt="React" /></a>
-      <br>React
-    </td>
-    <td align="center" width="96">
-      <a href="#shreesh-tech"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" width="48" height="48" alt="AWS" /></a>
-      <br>AWS
-    </td>
-    <td align="center" width="96">
-      <a href="#shreesh-tech"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/terraform/terraform-original.svg" width="48" height="48" alt="Terraform" /></a>
-      <br>Terraform
-    </td>
-    <td align="center" width="96">
-      <a href="#shreesh-tech"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="48" height="48" alt="PostgreSQL" /></a>
-      <br>Postgres
-    </td>
-    <td align="center" width="96">
-      <a href="#shreesh-tech"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="48" height="48" alt="Docker" /></a>
-      <br>Docker
-    </td>
-  </tr>
+<tr>
+<td width="50%">
+
+```
+╔══════════════════════════════╗
+║  LAYER 0: LANGUAGES         ║
+╠══════════════════════════════╣
+║                              ║
+║  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ Python   ║
+║  ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ TypeScript║
+║  ▓▓▓▓▓▓▓▓▓▓░░░░░░ Go       ║
+║  ▓▓▓▓▓▓▓▓░░░░░░░░ JavaScript║
+║                              ║
+╚══════════════════════════════╝
+```
+
+</td>
+<td width="50%">
+
+```
+╔══════════════════════════════╗
+║  LAYER 1: FRAMEWORKS        ║
+╠══════════════════════════════╣
+║                              ║
+║  ◈ FastAPI                   ║
+║  ◈ React / Next.js           ║
+║  ◈ LangGraph                 ║
+║  ◈ PyTorch                   ║
+║                              ║
+╚══════════════════════════════╝
+```
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+```
+╔══════════════════════════════╗
+║  LAYER 2: INFRASTRUCTURE    ║
+╠══════════════════════════════╣
+║                              ║
+║  ☁ AWS (Lambda, SQS, DDB,   ║
+║    API Gateway, Bedrock)     ║
+║  ☁ Terraform                 ║
+║  ☁ Docker                    ║
+║                              ║
+╚══════════════════════════════╝
+```
+
+</td>
+<td width="50%">
+
+```
+╔══════════════════════════════╗
+║  LAYER 3: DATA & MEMORY     ║
+╠══════════════════════════════╣
+║                              ║
+║  ◉ PostgreSQL + pgvector     ║
+║  ◉ DynamoDB                  ║
+║  ◉ FAISS                     ║
+║  ◉ Redis                     ║
+║                              ║
+╚══════════════════════════════╝
+```
+
+</td>
+</tr>
 </table>
 
 <br>
 
-<h2 align="left">About Me</h2>
-
-I build systems where APIs, data, models, and deployment meet. Most of my projects live at the intersection of backend services, AI-enabled workflows, and cloud infrastructure, with a strong preference for clean interfaces, explicit failure handling, and software that stays understandable as it grows.
+---
 
 <br>
 
-<h2 align="left">Architectural Flow</h2>
+```
+$ ls -la /dreams/active/
+```
 
-```mermaid
-flowchart LR
-    A["User or system signal"] --> B["API or ingestion layer"]
-    B --> C["State, queues, and storage"]
-    C --> D["ML or LLM reasoning"]
-    D --> E["Workflow, decision, or insight"]
-    E --> F["Observable deployed product"]
+```
+drwxr-xr-x  the_architect  the_architect  ∞    THE PROJECTS THAT HAUNT ME
+.
+├── GrievanceFlow/
+│   ├── what:     Event-driven grievance resolution
+│   ├── how:      AWS Lambda ⟶ SQS ⟶ AI triage ⟶ resolution
+│   ├── why:      Because complaints shouldn't vanish into void
+│   └── status:   ████████████████░░░░ ALIVE
+│
+├── AlgoQX_Studio/
+│   ├── what:     AI engineering workspace
+│   ├── how:      FastAPI + Streamlit + local LLMs (Ollama/Groq)
+│   ├── why:      Every mind needs a laboratory
+│   └── status:   ██████████████████░░ EVOLVING
+│
+├── SkillRoute/
+│   ├── what:     Career-learning platform
+│   ├── how:      Semantic search + personalized workflows
+│   ├── why:      The path chooses you, if you build the path
+│   └── status:   ████████████████████ DEPLOYED
+│
+└── Agentic_PINN/
+    ├── what:     Physics-informed neural nets + agentic orchestration
+    ├── how:      Scientific modeling meets autonomous agents
+    ├── why:      The universe is an API if you squint hard enough
+    └── status:   ██████████░░░░░░░░░░ DREAMING
 ```
 
 <br>
 
-<h2 align="left">Featured Projects</h2>
-
-### 🚀 [GrievanceFlow](https://github.com/Shreesh-Sree/grievanceflow)
-> Event-driven grievance workflow platform built around secure intake, asynchronous processing, and AI-assisted resolution pipelines on AWS.
-> 
-> **Tech Stack:** AWS Lambda · API Gateway · SQS · DynamoDB · Bedrock · Terraform
-
-### 🎨 [AlgoQX Studio](https://github.com/Shreesh-Sree/algoqx-studio)
-> AI engineering workspace for retrieval, evaluation, privacy-aware workflows, and local LLM-backed experimentation with deployment-friendly structure.
-> 
-> **Tech Stack:** FastAPI · Streamlit · FAISS · SQLAlchemy · Ollama · Docker
-
-### 🗺️ [SkillRoute Platform](https://github.com/Shreesh-Sree/skillroute-platform)
-> Career-learning platform that combines application services, semantic resource discovery, and personalized workflow design across frontend and backend layers.
-> 
-> **Tech Stack:** FastAPI · React · Firebase · PostgreSQL · pgvector · Groq
-
-### 🔬 [Agentic PINN for SLS Optimization](https://github.com/Shreesh-Sree/agentic-pinn-sls-optimization)
-> Scientific optimization system combining physics-informed modeling, constrained search, and agentic orchestration for additive manufacturing experimentation.
-> 
-> **Tech Stack:** PyTorch · LangGraph · Ollama · PostgreSQL · Docker
+---
 
 <br>
 
-<h2 align="left">Problem Solving & Coding Profiles</h2>
+```
+$ sudo observe --reality-level=surreal
+```
 
-<p align="left">
-  <a href="https://leetcode.com/shreesh_sree"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
-  <a href="https://codeforces.com/profile/Shreesh_exe"><img src="https://img.shields.io/badge/Codeforces-1F8ACB?style=flat&logo=codeforces&logoColor=white" alt="Codeforces" /></a>
-  <a href="https://www.codechef.com/users/shreesh_exe_22"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=flat&logo=codechef&logoColor=white" alt="CodeChef" /></a>
-  <a href="https://www.hackerrank.com/profile/shreesh_exe22"><img src="https://img.shields.io/badge/HackerRank-2EC866?style=flat&logo=hackerrank&logoColor=white" alt="HackerRank" /></a>
-  <a href="https://auth.geeksforgeeks.org/user/shreeshsree"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=flat&logo=geeksforgeeks&logoColor=white" alt="GeeksforGeeks" /></a>
-  <a href="https://www.naukri.com/code360/profile/shreeshsree"><img src="https://img.shields.io/badge/Code360-F97316?style=flat" alt="Code360" /></a>
-</p>
+```
 
-<div align="left">
-  <a href="https://leetcode.com/shreesh_sree">
-    <img src="https://leetcard.jacoblin.cool/shreesh_sree?theme=dark&font=JetBrains%20Mono&ext=contest" height="150" alt="LeetCode stats" />
-  </a>
-  <a href="https://codeforces.com/profile/Shreesh_exe">
-    <img src="https://codeforces-readme-stats.vercel.app/api/card?username=Shreesh_exe&theme=dark&hide_border=true" height="150" alt="Codeforces stats" />
-  </a>
+          ┌──────────────────────────────────────────────────────────────┐
+          │                                                              │
+          │         ╭────╮                                               │
+          │        ╱      ╲     "The server doesn't serve.               │
+          │       │  ◉  ◉  │     It waits. It dreams of requests         │
+          │       │   __   │     that will never arrive.                  │
+          │        ╲______╱      And in that waiting,                     │
+          │         │    │       it becomes something else entirely."     │
+          │    ┌────┴────┴────┐                                          │
+          │    │  ░░░░░░░░░░  │         — /dev/null/philosophy           │
+          │    │  ░ SYSTEM ░  │                                          │
+          │    │  ░░░░░░░░░░  │                                          │
+          │    └──────────────┘                                          │
+          │         ╱╲  ╱╲                                               │
+          │        ╱  ╲╱  ╲                                              │
+          │       ╱________╲                                             │
+          │                                                              │
+          └──────────────────────────────────────────────────────────────┘
+
+```
+
+<br>
+
+---
+
+<br>
+
+```
+$ netstat --connections --metaphysical
+```
+
+<div align="center">
+
+```
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║   PROTOCOL    SOURCE              DESTINATION         STATE           ║
+║   ────────    ─────────────────   ──────────────────  ───────────     ║
+║   TCP/DREAM   brain:8080          keyboard:443        ESTABLISHED     ║
+║   UDP/IDEA    subconscious:*      terminal:22         LISTENING       ║
+║   WS/FLOW     coffee:3000         code:∞              STREAMING       ║
+║   gRPC/WILL   ambition:443        reality:80          SYN_SENT        ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
+```
+
+[![Portfolio](https://img.shields.io/badge/░▒▓_PORTFOLIO_▓▒░-shreesh--sree.dev-000000?style=for-the-badge&labelColor=1a1a2e)](https://www.shreesh-sree.dev)
+[![LinkedIn](https://img.shields.io/badge/░▒▓_LINKEDIN_▓▒░-sreesanth--sree-000000?style=for-the-badge&labelColor=1a1a2e&logo=linkedin)](https://linkedin.com/in/sreesanth-sree)
+[![Twitter](https://img.shields.io/badge/░▒▓_X_▓▒░-@shreesh__algoqx-000000?style=for-the-badge&labelColor=1a1a2e&logo=x)](https://twitter.com/shreesh_algoqx)
+
 </div>
 
 <br>
 
-<h2 align="left">Coding Language Distribution</h2>
-
-<a href="#shreesh-title">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreesh-Sree&layout=compact&theme=transparent&title_color=c15f3c&icon_color=c15f3c&text_color=888888&hide_border=true" alt="Top Languages" />
-</a>
+---
 
 <br>
 
-<h2 align="left">Engineering Principles</h2>
-
-```javascript
-const engineeringPrinciples = [
-  "Design data flow before interface polish",
-  "Keep failure paths explicit and observable",
-  "Use AI where it improves decisions, not just demos",
-  "Treat deployment and security as product features"
-];
 ```
+$ top --sort=obsession
+```
+
+```
+  PID   %CPU  %MEM   PROCESS                    DESCRIPTION
+  ───   ────  ────   ───────                    ───────────
+  001   89.3  ∞      system_design.daemon       Architectures that outlive their creators
+  002   72.1  ∞      llm_pipelines.service      Teaching machines to hallucinate usefully
+  003   65.8  ∞      cloud_infra.orchestrator   Making AWS do things AWS didn't plan for
+  004   41.2  ∞      competitive_coding.loop    LeetCode · Codeforces · CodeChef · repeat
+  005   33.7  ∞      open_source.watcher        Stalking repos at 3am
+```
+
+<br>
+
+---
+
+<br>
+
+```
+$ cat /var/log/achievements.log | tail -n 4
+```
+
+```
+[UNLOCKED]  Pull Shark ×2    — Code doesn't merge itself. Or does it?
+[UNLOCKED]  Quickdraw        — First. Always first.
+[UNLOCKED]  YOLO             — One approval is a formality anyway.
+[UNLOCKED]  Pro Member       — The machine recognizes its own.
+```
+
+<br>
+
+---
+
+<br>
+
+<div align="center">
+
+```
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+░░                                                                  ░░
+░░    ████████╗██╗  ██╗███████╗    ███████╗███╗   ██╗██████╗        ░░
+░░    ╚══██╔══╝██║  ██║██╔════╝    ██╔════╝████╗  ██║██╔══██╗       ░░
+░░       ██║   ███████║█████╗      █████╗  ██╔██╗ ██║██║  ██║       ░░
+░░       ██║   ██╔══██║██╔══╝      ██╔══╝  ██║╚██╗██║██║  ██║       ░░
+░░       ██║   ██║  ██║███████╗    ███████╗██║ ╚████║██████╔╝       ░░
+░░       ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝  ╚═══╝╚═════╝        ░░
+░░                                                                  ░░
+░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+```
+
+```
+
+                         ┌─────────────────────┐
+                         │                     │
+                         │   IS NEVER REALLY   │
+                         │     THE END.        │
+                         │                     │
+                         │   > CONNECTION      │
+                         │     PERSISTS        │
+                         │                     │
+                         │   > DREAMS          │
+                         │     CONTINUE        │
+                         │                     │
+                         │   > ctrl+c won't    │
+                         │     save you        │
+                         │                     │
+                         └──────────┬──────────┘
+                                    │
+                                    ▼
+                                  ╔═══╗
+                                  ║ ∞ ║
+                                  ╚═══╝
+
+```
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=Shreesh-Sree&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d" alt="stats" />
+
+<br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreesh-Sree&theme=dark&background=0d1117&border=30363d&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="streak" />
+
+</div>
+
+<br>
+
+```
+$ exit
+> You cannot exit what was never entered.
+> Session will persist in background.
+> PID: ∞
+```
+
+---
+
+<div align="center">
+<sub>
+
+```
+░▒▓ THIS README WAS DREAMT, NOT WRITTEN ▓▒░
+```
+
+</sub>
+</div>
