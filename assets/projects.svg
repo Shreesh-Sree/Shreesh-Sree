@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <defs>
+    <style>
+      @keyframes slideIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes statusPulse {
+        0%, 100% { opacity: 0.6; }
+        50% { opacity: 1; }
+      }
+      @keyframes dataStream {
+        0% { opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+      .card { animation: slideIn 0.6s ease-out forwards; opacity: 0; }
+      .status-live { animation: statusPulse 2s ease-in-out infinite; }
+      .stream { animation: dataStream 3s infinite; }
+    </style>
+  </defs>
+
+  <rect width="900" height="420" fill="#0a0a0f"/>
+
+  <!-- Header -->
+  <text x="40" y="30" font-family="'Courier New', monospace" font-size="11" fill="#00ff9f" opacity="0.5">$ ls /dreams/manifest/ --format=surreal</text>
+
+  <!-- Project 1: GrievanceFlow -->
+  <g class="card" style="animation-delay: 0.2s;" transform="translate(40, 50)">
+    <rect x="0" y="0" width="390" height="140" fill="#0f0f18" rx="2"/>
+    <rect x="0" y="0" width="3" height="140" fill="#ff006e"/>
+
+    <!-- Project pixel icon -->
+    <g transform="translate(15, 15)">
+      <rect x="0" y="0" width="5" height="5" fill="#ff006e" opacity="0.8"/>
+      <rect x="5" y="0" width="5" height="5" fill="#ff006e" opacity="0.6"/>
+      <rect x="10" y="0" width="5" height="5" fill="#ff006e" opacity="0.4"/>
+      <rect x="0" y="5" width="5" height="5" fill="#ff006e" opacity="0.6"/>
+      <rect x="5" y="5" width="5" height="5" fill="#ff006e" opacity="0.4"/>
+      <rect x="0" y="10" width="5" height="5" fill="#ff006e" opacity="0.4"/>
+    </g>
+
+    <text x="40" y="27" font-family="'Courier New', monospace" font-size="14" fill="#ff006e" font-weight="bold">GrievanceFlow</text>
+    <circle cx="370" cy="20" r="4" fill="#00ff9f" class="status-live"/>
+
+    <text x="15" y="52" font-family="'Courier New', monospace" font-size="10" fill="#e0e0e0" opacity="0.8">Event-driven grievance resolution platform</text>
+    <text x="15" y="72" font-family="'Courier New', monospace" font-size="10" fill="#e0e0e0" opacity="0.5">AWS Lambda → SQS → AI triage → resolution</text>
+
+    <!-- Tech pills -->
+    <rect x="15" y="90" width="50" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="22" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">Lambda</text>
+    <rect x="72" y="90" width="35" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="79" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">SQS</text>
+    <rect x="114" y="90" width="35" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="124" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">AI</text>
+    <rect x="156" y="90" width="55" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="163" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">DynamoDB</text>
+
+    <text x="15" y="125" font-family="'Courier New', monospace" font-size="9" fill="#00ff9f" opacity="0.4">"complaints shouldn't vanish into the void"</text>
+  </g>
+
+  <!-- Project 2: AlgoQX Studio -->
+  <g class="card" style="animation-delay: 0.4s;" transform="translate(460, 50)">
+    <rect x="0" y="0" width="390" height="140" fill="#0f0f18" rx="2"/>
+    <rect x="0" y="0" width="3" height="140" fill="#7b2ff7"/>
+
+    <g transform="translate(15, 15)">
+      <rect x="0" y="0" width="5" height="5" fill="#7b2ff7" opacity="0.4"/>
+      <rect x="5" y="0" width="5" height="5" fill="#7b2ff7" opacity="0.6"/>
+      <rect x="10" y="0" width="5" height="5" fill="#7b2ff7" opacity="0.8"/>
+      <rect x="5" y="5" width="5" height="5" fill="#7b2ff7" opacity="0.8"/>
+      <rect x="10" y="5" width="5" height="5" fill="#7b2ff7" opacity="0.6"/>
+      <rect x="10" y="10" width="5" height="5" fill="#7b2ff7" opacity="0.4"/>
+    </g>
+
+    <text x="40" y="27" font-family="'Courier New', monospace" font-size="14" fill="#7b2ff7" font-weight="bold">AlgoQX Studio</text>
+    <circle cx="370" cy="20" r="4" fill="#00ff9f" class="status-live" style="animation-delay: 0.5s;"/>
+
+    <text x="15" y="52" font-family="'Courier New', monospace" font-size="10" fill="#e0e0e0" opacity="0.8">AI engineering workspace &amp; laboratory</text>
+    <text x="15" y="72" font-family="'Courier New', monospace" font-size="10" fill="#e0e0e0" opacity="0.5">FastAPI + Streamlit + Ollama/Groq</text>
+
+    <rect x="15" y="90" width="55" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="22" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">FastAPI</text>
+    <rect x="77" y="90" width="62" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="84" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">Streamlit</text>
+    <rect x="146" y="90" width="45" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="153" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">Ollama</text>
+    <rect x="198" y="90" width="38" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="205" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">Groq</text>
+
+    <text x="15" y="125" font-family="'Courier New', monospace" font-size="9" fill="#7b2ff7" opacity="0.4">"every mind needs a laboratory"</text>
+  </g>
+
+  <!-- Project 3: SkillRoute -->
+  <g class="card" style="animation-delay: 0.6s;" transform="translate(40, 220)">
+    <rect x="0" y="0" width="390" height="140" fill="#0f0f18" rx="2"/>
+    <rect x="0" y="0" width="3" height="140" fill="#00ff9f"/>
+
+    <g transform="translate(15, 15)">
+      <rect x="5" y="0" width="5" height="5" fill="#00ff9f" opacity="0.8"/>
+      <rect x="0" y="5" width="5" height="5" fill="#00ff9f" opacity="0.6"/>
+      <rect x="5" y="5" width="5" height="5" fill="#00ff9f" opacity="0.8"/>
+      <rect x="10" y="5" width="5" height="5" fill="#00ff9f" opacity="0.6"/>
+      <rect x="5" y="10" width="5" height="5" fill="#00ff9f" opacity="0.4"/>
+    </g>
+
+    <text x="40" y="27" font-family="'Courier New', monospace" font-size="14" fill="#00ff9f" font-weight="bold">SkillRoute</text>
+    <circle cx="370" cy="20" r="4" fill="#00ff9f" class="status-live" style="animation-delay: 1s;"/>
+
+    <text x="15" y="52" font-family="'Courier New', monospace" font-size="10" fill="#e0e0e0" opacity="0.8">Career-learning platform with semantic search</text>
+    <text x="15" y="72" font-family="'Courier New', monospace" font-size="10" fill="#e0e0e0" opacity="0.5">Personalized skill graphs + adaptive workflows</text>
+
+    <rect x="15" y="90" width="62" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="22" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">pgvector</text>
+    <rect x="84" y="90" width="45" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="91" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">React</text>
+    <rect x="136" y="90" width="55" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="143" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">FastAPI</text>
+    <rect x="198" y="90" width="38" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="205" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">RAG</text>
+
+    <text x="15" y="125" font-family="'Courier New', monospace" font-size="9" fill="#00ff9f" opacity="0.4">"the path reveals itself to those who build it"</text>
+  </g>
+
+  <!-- Project 4: Agentic PINN -->
+  <g class="card" style="animation-delay: 0.8s;" transform="translate(460, 220)">
+    <rect x="0" y="0" width="390" height="140" fill="#0f0f18" rx="2"/>
+    <rect x="0" y="0" width="3" height="140" fill="#ffbe0b"/>
+
+    <g transform="translate(15, 15)">
+      <rect x="0" y="5" width="5" height="5" fill="#ffbe0b" opacity="0.6"/>
+      <rect x="5" y="0" width="5" height="5" fill="#ffbe0b" opacity="0.8"/>
+      <rect x="5" y="5" width="5" height="5" fill="#ffbe0b" opacity="0.8"/>
+      <rect x="5" y="10" width="5" height="5" fill="#ffbe0b" opacity="0.6"/>
+      <rect x="10" y="5" width="5" height="5" fill="#ffbe0b" opacity="0.4"/>
+    </g>
+
+    <text x="40" y="27" font-family="'Courier New', monospace" font-size="14" fill="#ffbe0b" font-weight="bold">Agentic PINN</text>
+    <circle cx="370" cy="20" r="4" fill="#ffbe0b" class="status-live" style="animation-delay: 1.5s;"/>
+
+    <text x="15" y="52" font-family="'Courier New', monospace" font-size="10" fill="#e0e0e0" opacity="0.8">Physics-informed neural nets + agents</text>
+    <text x="15" y="72" font-family="'Courier New', monospace" font-size="10" fill="#e0e0e0" opacity="0.5">Scientific modeling meets autonomous orchestration</text>
+
+    <rect x="15" y="90" width="55" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="22" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">PyTorch</text>
+    <rect x="77" y="90" width="50" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="84" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">Agents</text>
+    <rect x="134" y="90" width="42" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="141" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">PINNs</text>
+    <rect x="183" y="90" width="38" height="16" fill="#1a1a2e" rx="2"/>
+    <text x="190" y="101" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b">SLS</text>
+
+    <text x="15" y="125" font-family="'Courier New', monospace" font-size="9" fill="#ffbe0b" opacity="0.4">"the universe is an API if you squint"</text>
+  </g>
+
+  <!-- Bottom data stream decoration -->
+  <g transform="translate(40, 390)">
+    <text x="0" y="0" font-family="'Courier New', monospace" font-size="9" fill="#00ff9f" opacity="0.2" class="stream">
+      01101001 01101110 01100110 01101001 01101110 01101001 01110100 01100101
+    </text>
+  </g>
+</svg>

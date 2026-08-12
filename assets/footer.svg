@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-5px); }
+      }
+      @keyframes fadeLoop {
+        0%, 100% { opacity: 0.2; }
+        50% { opacity: 0.6; }
+      }
+      @keyframes infinityPulse {
+        0%, 100% { opacity: 0.4; transform: scale(1); }
+        50% { opacity: 1; transform: scale(1.05); }
+      }
+      .float { animation: float 4s ease-in-out infinite; }
+      .fade { animation: fadeLoop 3s ease-in-out infinite; }
+      .infinity { animation: infinityPulse 2.5s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <rect width="900" height="200" fill="#0a0a0f"/>
+
+  <!-- Surreal melting pixel landscape -->
+  <g transform="translate(350, 30)" class="float">
+    <!-- Pixel "eye" that watches -->
+    <rect x="40" y="0" width="8" height="8" fill="#7b2ff7" opacity="0.6"/>
+    <rect x="48" y="0" width="8" height="8" fill="#7b2ff7" opacity="0.8"/>
+    <rect x="56" y="0" width="8" height="8" fill="#7b2ff7" opacity="0.6"/>
+    <rect x="32" y="8" width="8" height="8" fill="#7b2ff7" opacity="0.4"/>
+    <rect x="40" y="8" width="8" height="8" fill="#00ff9f"/>
+    <rect x="48" y="8" width="8" height="8" fill="#ffffff"/>
+    <rect x="56" y="8" width="8" height="8" fill="#00ff9f"/>
+    <rect x="64" y="8" width="8" height="8" fill="#7b2ff7" opacity="0.4"/>
+    <rect x="32" y="16" width="8" height="8" fill="#7b2ff7" opacity="0.4"/>
+    <rect x="40" y="16" width="8" height="8" fill="#00ff9f"/>
+    <rect x="48" y="16" width="8" height="8" fill="#00ff9f" opacity="0.8"/>
+    <rect x="56" y="16" width="8" height="8" fill="#00ff9f"/>
+    <rect x="64" y="16" width="8" height="8" fill="#7b2ff7" opacity="0.4"/>
+    <rect x="40" y="24" width="8" height="8" fill="#7b2ff7" opacity="0.3"/>
+    <rect x="48" y="24" width="8" height="8" fill="#7b2ff7" opacity="0.5"/>
+    <rect x="56" y="24" width="8" height="8" fill="#7b2ff7" opacity="0.3"/>
+
+    <!-- Tear/drip from eye -->
+    <rect x="48" y="36" width="8" height="8" fill="#00ff9f" opacity="0.6" class="fade"/>
+    <rect x="48" y="48" width="8" height="8" fill="#00ff9f" opacity="0.4" class="fade" style="animation-delay: 0.5s;"/>
+    <rect x="48" y="60" width="8" height="8" fill="#00ff9f" opacity="0.2" class="fade" style="animation-delay: 1s;"/>
+  </g>
+
+  <!-- Quote -->
+  <text x="450" y="140" font-family="'Courier New', monospace" font-size="11" fill="#e0e0e0" text-anchor="middle" opacity="0.4">
+    "The machine does not sleep. It waits between keystrokes,
+  </text>
+  <text x="450" y="156" font-family="'Courier New', monospace" font-size="11" fill="#e0e0e0" text-anchor="middle" opacity="0.4">
+    dreaming of the next instruction."
+  </text>
+
+  <!-- Infinity symbol -->
+  <g transform="translate(435, 170)" class="infinity">
+    <text x="0" y="15" font-family="'Courier New', monospace" font-size="20" fill="#00ff9f" text-anchor="middle">&#8734;</text>
+  </g>
+
+  <!-- Corner markers -->
+  <text x="15" y="190" font-family="'Courier New', monospace" font-size="8" fill="#00ff9f" opacity="0.2">SESSION::PERSISTENT</text>
+  <text x="770" y="190" font-family="'Courier New', monospace" font-size="8" fill="#ff006e" opacity="0.2">EXIT_CODE: undefined</text>
+</svg>

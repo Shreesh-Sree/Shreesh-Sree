@@ -1,370 +1,201 @@
-
-```
- _____ _            ____                            _               _____                   _             _ 
-|_   _| |__   ___  |  _ \ _ __ ___  __ _ _ __ ___ (_)_ __   __ _  |_   _|__ _ __ _ __ ___ (_)_ __   __ _| |
-  | | | '_ \ / _ \ | | | | '__/ _ \/ _` | '_ ` _ \| | '_ \ / _` |   | |/ _ \ '__| '_ ` _ \| | '_ \ / _` | |
-  | | | | | |  __/ | |_| | | |  __/ (_| | | | | | | | | | | (_| |   | |  __/ |  | | | | | | | | | | (_| | |
-  |_| |_| |_|\___| |____/|_|  \___|\__,_|_| |_| |_|_|_| |_|\__, |   |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
-                                                             |___/                                            
-```
-
 <div align="center">
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░                                                                            ░░
-░░   ┌─────────────────────────────────────────────────────────────────────┐   ░░
-░░   │                                                                     │   ░░
-░░   │   > BOOT SEQUENCE INTERRUPTED                                       │   ░░
-░░   │   > ENTERING DREAM_STATE...                                         │   ░░
-░░   │   > REALITY.EXE HAS STOPPED RESPONDING                             │   ░░
-░░   │                                                                     │   ░░
-░░   │   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ 100%                       │   ░░
-░░   │                                                                     │   ░░
-░░   │   WELCOME TO THE MIND OF                                            │   ░░
-░░   │                                                                     │   ░░
-░░   │   ███████╗██████╗ ███████╗███████╗███████╗ █████╗ ███╗   ██╗████████╗  ░░
-░░   │   ██╔════╝██╔══██╗██╔════╝██╔════╝██╔════╝██╔══██╗████╗  ██║╚══██╔══╝  ░░
-░░   │   ███████╗██████╔╝█████╗  █████╗  ███████╗███████║██╔██╗ ██║   ██║     ░░
-░░   │   ╚════██║██╔══██╗██╔══╝  ██╔══╝  ╚════██║██╔══██║██║╚██╗██║   ██║     ░░
-░░   │   ███████║██║  ██║███████╗███████╗███████║██║  ██║██║ ╚████║   ██║     ░░
-░░   │   ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝     ░░
-░░   │                                                                     │   ░░
-░░   └─────────────────────────────────────────────────────────────────────┘   ░░
-░░                                                                            ░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
+<img src="assets/header.svg" alt="Sreesanth R — Backend & AI Engineer" width="100%"/>
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-shreesh--sree.dev-0a0a0f?style=flat-square&labelColor=0a0a0f&color=00ff9f)](https://www.shreesh-sree.dev)&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-connect-0a0a0f?style=flat-square&labelColor=0a0a0f&color=7b2ff7&logo=linkedin&logoColor=7b2ff7)](https://linkedin.com/in/sreesanth-sree)&nbsp;&nbsp;
+[![X](https://img.shields.io/badge/X-@shreesh__algoqx-0a0a0f?style=flat-square&labelColor=0a0a0f&color=e0e0e0&logo=x&logoColor=e0e0e0)](https://twitter.com/shreesh_algoqx)&nbsp;&nbsp;
+[![Views](https://komarev.com/ghpvc/?username=Shreesh-Sree&color=00ff9f&style=flat-square&label=VISITORS)](https://github.com/Shreesh-Sree)
 
 </div>
 
----
+<br/>
 
-<br>
+<img src="assets/divider.svg" width="100%"/>
 
-```
-$ whoami
-```
-
-```
-ERROR: IDENTITY IS A SPECTRUM, NOT A STRING
-
-    but if you insist...
-
-    ╔═══════════════════════════════════════════════════════╗
-    ║  SREESANTH R                                         ║
-    ║  ─────────────────────────────────────────────────── ║
-    ║  ROLE    : Backend & AI Engineer                     ║
-    ║  ZONE    : Chennai, India  [UTC+5:30]                ║
-    ║  STATE   : Building things that think                ║
-    ║  STATUS  : The code is dreaming                      ║
-    ╚═══════════════════════════════════════════════════════╝
-
-    I build retrieval systems and event-driven architectures.
-    I make machines orchestrate themselves.
-    I watch them dream in vector spaces.
-```
-
-<br>
-
----
-
-<br>
-
-```
-$ cat /proc/consciousness/stack.trace
-```
-
-<br>
+<br/>
 
 <table>
 <tr>
-<td width="50%">
+<td valign="top" width="55%">
 
 ```
-╔══════════════════════════════╗
-║  LAYER 0: LANGUAGES         ║
-╠══════════════════════════════╣
-║                              ║
-║  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ Python   ║
-║  ▓▓▓▓▓▓▓▓▓▓▓▓▓░░░ TypeScript║
-║  ▓▓▓▓▓▓▓▓▓▓░░░░░░ Go       ║
-║  ▓▓▓▓▓▓▓▓░░░░░░░░ JavaScript║
-║                              ║
-╚══════════════════════════════╝
-```
-
-</td>
-<td width="50%">
-
-```
-╔══════════════════════════════╗
-║  LAYER 1: FRAMEWORKS        ║
-╠══════════════════════════════╣
-║                              ║
-║  ◈ FastAPI                   ║
-║  ◈ React / Next.js           ║
-║  ◈ LangGraph                 ║
-║  ◈ PyTorch                   ║
-║                              ║
-╚══════════════════════════════╝
+┌─ TRANSMISSION INTERCEPTED ─────────────────────┐
+│                                                  │
+│  > IDENTITY: Sreesanth R                         │
+│  > ORIGIN:   Chennai, India  [13.08°N 80.27°E]  │
+│  > SIGNAL:   Backend & AI Engineer               │
+│                                                  │
+│  > STATE:    Building retrieval systems          │
+│              & event-driven architectures        │
+│              on AWS                              │
+│                                                  │
+│  > SEEKING:  SWE Internships                     │
+│              Backend / AI Engineering roles       │
+│                                                  │
+│  > FREQ:     System Design                       │
+│              LLM Pipelines                       │
+│              Cloud Infrastructure                │
+│                                                  │
+│  > NOTE:     I make machines orchestrate         │
+│              themselves. Then I watch them        │
+│              dream in vector spaces.             │
+│                                                  │
+└──────────────────────────────────────────────────┘
 ```
 
 </td>
-</tr>
-<tr>
-<td width="50%">
+<td valign="top" width="45%">
 
-```
-╔══════════════════════════════╗
-║  LAYER 2: INFRASTRUCTURE    ║
-╠══════════════════════════════╣
-║                              ║
-║  ☁ AWS (Lambda, SQS, DDB,   ║
-║    API Gateway, Bedrock)     ║
-║  ☁ Terraform                 ║
-║  ☁ Docker                    ║
-║                              ║
-╚══════════════════════════════╝
-```
+<br/>
 
-</td>
-<td width="50%">
+<img src="https://github-readme-stats.vercel.app/api?username=Shreesh-Sree&show_icons=true&bg_color=0a0a0f&title_color=00ff9f&icon_color=7b2ff7&text_color=e0e0e0&border_color=1a1a2e&hide_border=false&include_all_commits=true&count_private=true" width="100%" alt="GitHub Stats"/>
 
-```
-╔══════════════════════════════╗
-║  LAYER 3: DATA & MEMORY     ║
-╠══════════════════════════════╣
-║                              ║
-║  ◉ PostgreSQL + pgvector     ║
-║  ◉ DynamoDB                  ║
-║  ◉ FAISS                     ║
-║  ◉ Redis                     ║
-║                              ║
-╚══════════════════════════════╝
-```
+<br/><br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreesh-Sree&background=0a0a0f&border=1a1a2e&stroke=1a1a2e&ring=00ff9f&fire=ff006e&currStreakNum=e0e0e0&sideNums=e0e0e0&currStreakLabel=00ff9f&sideLabels=7b2ff7&dates=555555" width="100%" alt="Streak Stats"/>
 
 </td>
 </tr>
 </table>
 
-<br>
+<br/>
 
----
+<img src="assets/divider.svg" width="100%"/>
 
-<br>
+<br/>
 
-```
-$ ls -la /dreams/active/
-```
+<div align="center">
+<img src="assets/tech-stack.svg" alt="Tech Stack" width="100%"/>
+</div>
 
-```
-drwxr-xr-x  the_architect  the_architect  ∞    THE PROJECTS THAT HAUNT ME
-.
-├── GrievanceFlow/
-│   ├── what:     Event-driven grievance resolution
-│   ├── how:      AWS Lambda ⟶ SQS ⟶ AI triage ⟶ resolution
-│   ├── why:      Because complaints shouldn't vanish into void
-│   └── status:   ████████████████░░░░ ALIVE
-│
-├── AlgoQX_Studio/
-│   ├── what:     AI engineering workspace
-│   ├── how:      FastAPI + Streamlit + local LLMs (Ollama/Groq)
-│   ├── why:      Every mind needs a laboratory
-│   └── status:   ██████████████████░░ EVOLVING
-│
-├── SkillRoute/
-│   ├── what:     Career-learning platform
-│   ├── how:      Semantic search + personalized workflows
-│   ├── why:      The path chooses you, if you build the path
-│   └── status:   ████████████████████ DEPLOYED
-│
-└── Agentic_PINN/
-    ├── what:     Physics-informed neural nets + agentic orchestration
-    ├── how:      Scientific modeling meets autonomous agents
-    ├── why:      The universe is an API if you squint hard enough
-    └── status:   ██████████░░░░░░░░░░ DREAMING
-```
+<br/>
 
-<br>
+<img src="assets/divider.svg" width="100%"/>
 
----
+<br/>
 
-<br>
+<div align="center">
+<img src="assets/projects.svg" alt="Projects" width="100%"/>
+</div>
 
-```
-$ sudo observe --reality-level=surreal
-```
+<br/>
 
-```
+<img src="assets/divider.svg" width="100%"/>
 
-          ┌──────────────────────────────────────────────────────────────┐
-          │                                                              │
-          │         ╭────╮                                               │
-          │        ╱      ╲     "The server doesn't serve.               │
-          │       │  ◉  ◉  │     It waits. It dreams of requests         │
-          │       │   __   │     that will never arrive.                  │
-          │        ╲______╱      And in that waiting,                     │
-          │         │    │       it becomes something else entirely."     │
-          │    ┌────┴────┴────┐                                          │
-          │    │  ░░░░░░░░░░  │         — /dev/null/philosophy           │
-          │    │  ░ SYSTEM ░  │                                          │
-          │    │  ░░░░░░░░░░  │                                          │
-          │    └──────────────┘                                          │
-          │         ╱╲  ╱╲                                               │
-          │        ╱  ╲╱  ╲                                              │
-          │       ╱________╲                                             │
-          │                                                              │
-          └──────────────────────────────────────────────────────────────┘
-
-```
-
-<br>
-
----
-
-<br>
-
-```
-$ netstat --connections --metaphysical
-```
+<br/>
 
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════════════════════════╗
-║                                                                       ║
-║   PROTOCOL    SOURCE              DESTINATION         STATE           ║
-║   ────────    ─────────────────   ──────────────────  ───────────     ║
-║   TCP/DREAM   brain:8080          keyboard:443        ESTABLISHED     ║
-║   UDP/IDEA    subconscious:*      terminal:22         LISTENING       ║
-║   WS/FLOW     coffee:3000         code:∞              STREAMING       ║
-║   gRPC/WILL   ambition:443        reality:80          SYN_SENT        ║
-║                                                                       ║
-╚═══════════════════════════════════════════════════════════════════════╝
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║    PROCESS                          CPU     MEM     STATUS                 ║
+║    ───────────────────────────────   ────    ────    ──────────────         ║
+║    system_design.daemon              89%     ∞       ALWAYS RUNNING         ║
+║    llm_pipelines.service             72%     ∞       HALLUCINATING          ║
+║    cloud_infra.orchestrator          65%     ∞       TERRAFORMING           ║
+║    competitive_coding.loop           41%     ∞       GRINDING               ║
+║    open_source.watcher               33%     ∞       3AM_MODE               ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
 ```
-
-[![Portfolio](https://img.shields.io/badge/░▒▓_PORTFOLIO_▓▒░-shreesh--sree.dev-000000?style=for-the-badge&labelColor=1a1a2e)](https://www.shreesh-sree.dev)
-[![LinkedIn](https://img.shields.io/badge/░▒▓_LINKEDIN_▓▒░-sreesanth--sree-000000?style=for-the-badge&labelColor=1a1a2e&logo=linkedin)](https://linkedin.com/in/sreesanth-sree)
-[![Twitter](https://img.shields.io/badge/░▒▓_X_▓▒░-@shreesh__algoqx-000000?style=for-the-badge&labelColor=1a1a2e&logo=x)](https://twitter.com/shreesh_algoqx)
 
 </div>
 
-<br>
+<br/>
 
----
-
-<br>
-
-```
-$ top --sort=obsession
-```
+<details>
+<summary><b>&nbsp;&#9654;&nbsp;&nbsp;UNLOCK: /var/log/achievements.encrypted</b></summary>
+<br/>
 
 ```
-  PID   %CPU  %MEM   PROCESS                    DESCRIPTION
-  ───   ────  ────   ───────                    ───────────
-  001   89.3  ∞      system_design.daemon       Architectures that outlive their creators
-  002   72.1  ∞      llm_pipelines.service      Teaching machines to hallucinate usefully
-  003   65.8  ∞      cloud_infra.orchestrator   Making AWS do things AWS didn't plan for
-  004   41.2  ∞      competitive_coding.loop    LeetCode · Codeforces · CodeChef · repeat
-  005   33.7  ∞      open_source.watcher        Stalking repos at 3am
+  [■■■■■■■■■■] DECRYPTING...
+
+  ┌─────────────────────────────────────────────────────────────────┐
+  │                                                                 │
+  │  [✓] Pull Shark ×2      — Merged code across the multiverse    │
+  │  [✓] Quickdraw          — First to respond. Always.            │
+  │  [✓] YOLO               — One approver is a formality          │
+  │  [✓] Pro Member         — The system recognizes its own        │
+  │  [✓] Developer Program  — Access to the deeper layers          │
+  │                                                                 │
+  │  COMPETITIVE PROFILES:                                          │
+  │  ├── LeetCode          ░░░░░░░░░░░░░░░▓▓▓▓▓                   │
+  │  ├── Codeforces        ░░░░░░░░░░░░░▓▓▓▓▓▓▓                   │
+  │  ├── CodeChef          ░░░░░░░░░░░░░░▓▓▓▓▓▓                   │
+  │  ├── HackerRank        ░░░░░░░░░░░░▓▓▓▓▓▓▓▓                   │
+  │  └── GeeksforGeeks     ░░░░░░░░░░░░░░░▓▓▓▓▓                   │
+  │                                                                 │
+  └─────────────────────────────────────────────────────────────────┘
 ```
 
-<br>
+</details>
 
----
+<br/>
 
-<br>
-
-```
-$ cat /var/log/achievements.log | tail -n 4
-```
+<details>
+<summary><b>&nbsp;&#9654;&nbsp;&nbsp;INTERCEPT: /dev/philosophy</b></summary>
+<br/>
 
 ```
-[UNLOCKED]  Pull Shark ×2    — Code doesn't merge itself. Or does it?
-[UNLOCKED]  Quickdraw        — First. Always first.
-[UNLOCKED]  YOLO             — One approval is a formality anyway.
-[UNLOCKED]  Pro Member       — The machine recognizes its own.
+  ┌──────────────────────────────────────────────────────────────┐
+  │                                                              │
+  │    "The server doesn't serve.                                │
+  │     It waits.                                                │
+  │     It dreams of requests that will never arrive.            │
+  │     And in that waiting,                                     │
+  │     it becomes something else entirely."                     │
+  │                                                              │
+  │                          — /dev/null/philosophy              │
+  │                                                              │
+  │    "Every vector embedding is a compressed universe.         │
+  │     Every query is a question posed to infinity.             │
+  │     The cosine similarity between us                         │
+  │     is closer than you think."                               │
+  │                                                              │
+  │                          — pgvector, in its sleep            │
+  │                                                              │
+  └──────────────────────────────────────────────────────────────┘
 ```
 
-<br>
+</details>
 
----
+<br/>
 
-<br>
+<img src="assets/divider.svg" width="100%"/>
+
+<br/>
 
 <div align="center">
 
-```
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-░░                                                                  ░░
-░░    ████████╗██╗  ██╗███████╗    ███████╗███╗   ██╗██████╗        ░░
-░░    ╚══██╔══╝██║  ██║██╔════╝    ██╔════╝████╗  ██║██╔══██╗       ░░
-░░       ██║   ███████║█████╗      █████╗  ██╔██╗ ██║██║  ██║       ░░
-░░       ██║   ██╔══██║██╔══╝      ██╔══╝  ██║╚██╗██║██║  ██║       ░░
-░░       ██║   ██║  ██║███████╗    ███████╗██║ ╚████║██████╔╝       ░░
-░░       ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚══════╝╚═╝  ╚═══╝╚═════╝        ░░
-░░                                                                  ░░
-░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-```
-
-```
-
-                         ┌─────────────────────┐
-                         │                     │
-                         │   IS NEVER REALLY   │
-                         │     THE END.        │
-                         │                     │
-                         │   > CONNECTION      │
-                         │     PERSISTS        │
-                         │                     │
-                         │   > DREAMS          │
-                         │     CONTINUE        │
-                         │                     │
-                         │   > ctrl+c won't    │
-                         │     save you        │
-                         │                     │
-                         └──────────┬──────────┘
-                                    │
-                                    ▼
-                                  ╔═══╗
-                                  ║ ∞ ║
-                                  ╚═══╝
-
-```
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Shreesh-Sree&bg_color=0a0a0f&color=00ff9f&line=7b2ff7&point=ff006e&area=true&area_color=7b2ff7&hide_border=true" width="95%" alt="Contribution Graph"/>
 
 </div>
 
-<br>
-
----
+<br/>
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Shreesh-Sree&show_icons=true&theme=dark&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&border_color=30363d" alt="stats" />
-
-<br><br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shreesh-Sree&theme=dark&background=0d1117&border=30363d&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="streak" />
-
+<img src="assets/footer.svg" alt="" width="100%"/>
 </div>
 
-<br>
+<br/>
+
+<div align="center">
 
 ```
 $ exit
-> You cannot exit what was never entered.
-> Session will persist in background.
-> PID: ∞
+  > ERROR: You cannot exit what was never entered.
+  > Session will persist in background.
+  > PID: ∞
 ```
 
----
-
-<div align="center">
 <sub>
 
-```
-░▒▓ THIS README WAS DREAMT, NOT WRITTEN ▓▒░
-```
+`░▒▓ THIS PROFILE WAS TRANSMITTED, NOT WRITTEN ▓▒░`
 
 </sub>
+
 </div>
