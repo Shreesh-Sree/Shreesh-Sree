@@ -1,6 +1,8 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a2942,100:58a6ff&height=140&section=header&text=Sreesanth%20R&fontSize=40&fontColor=ffffff&fontAlignY=45&desc=Backend%20%26%20Systems%20Engineer&descAlignY=68&descSize=16&descColor=8b949e&animation=fadeIn" width="100%" />
+
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Sreesanth+R;Backend+%26+Systems+Engineer;Go+%7C+Python+%7C+TypeScript+%7C+C%2B%2B;Building+systems+that+scale" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Go+%7C+Python+%7C+TypeScript+%7C+C%2B%2B;gRPC+Microservices+%7C+AI+Inference+%7C+GPU+Infrastructure;Building+systems+that+scale" alt="Typing SVG" />
 
 <br/>
 
@@ -145,10 +147,14 @@ Extending the backend of an AGPL-3.0 learning platform. Currently integrating Sa
 </tr>
 </table>
 
+<br/>
+
+<img src="https://github-trophies.vercel.app/?username=Shreesh-Sree&theme=onestar&no-frame=true&no-bg=true&margin-w=6&row=2&column=4" width="100%" />
+
+<br/>
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="100%" />
+
 </div>
 
----
-
-<div align="center">
-<sub>Chennai, India &nbsp;&bull;&nbsp; <a href="mailto:shreesh.exe22@gmail.com">shreesh.exe22@gmail.com</a> &nbsp;&bull;&nbsp; <a href="https://shreesh-sree.dev">shreesh-sree.dev</a></sub>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1a2942,100:0d1117&height=100&section=footer&animation=fadeIn" width="100%" />
