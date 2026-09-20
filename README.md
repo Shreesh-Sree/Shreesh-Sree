@@ -24,10 +24,34 @@ Backend and systems engineer based in Chennai, India. I work primarily in **Go**
 I work close to the metal: patching llama.cpp at the C++ level for speculative decoding, tuning NUMA topology and hugepages on dual-EPYC servers, building agentic AI systems that run in production.
 
 - B.Tech in AI & ML at **St. Joseph's College of Engineering** (Anna University) · CGPA 8.40 · Expected 2028
-- **Databricks Student Fellow APJ 2026** — 1 of 38 selected from 7,171 global applicants
 - SWE Intern at **Presidio Inc.** (PRIME program — 1 of 15 from 2,000+ applicants)
 - AI Research Intern at **Indian Institute of Technology Jammu**
 - Technical Lead, HackerRank Campus Crew · Campus Leader, AWS Student Builder Group · Technical Coordinator, GDG SJCE
+
+---
+
+### Recognition
+
+<div align="center">
+
+![Databricks Fellow](https://img.shields.io/badge/Databricks_Student_Fellow_APJ_2026-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
+![Presidio PRIME](https://img.shields.io/badge/Presidio_PRIME_SWE-1_of_15_from_2000%2B-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![HackerRank TL](https://img.shields.io/badge/HackerRank_Campus_Crew-Technical_Lead-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
+![AWS Builder](https://img.shields.io/badge/AWS_Student_Builder-Campus_Leader-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![GDG](https://img.shields.io/badge/Google_Developer_Group-Technical_Coordinator-4285F4?style=for-the-badge&logo=google&logoColor=white)
+
+</div>
+
+---
+
+### Currently Building
+
+| Project | Stack | Status |
+|:---|:---|:---|
+| AetherCode — Multi-tenant assessment platform | Go · gRPC · PostgreSQL · Casbin · K8s | Active |
+| FastMTP — llama.cpp speculative decoding | C++ · GGML · CUDA | In review |
+| HRCC Bot — Agentic campus event support | Python · LangGraph · vLLM · Discord.py | Active |
+| LearnHouse SEB integration | FastAPI · Python · SQLModel | In progress |
 
 ---
 
@@ -151,7 +175,25 @@ Extending the backend of an AGPL-3.0 learning platform. Currently integrating Sa
 
 <img src="https://github-trophies.vercel.app/?username=Shreesh-Sree&theme=onestar&no-frame=true&no-bg=true&margin-w=6&row=2&column=4" width="100%" />
 
-<br/>
+</div>
+
+---
+
+### Contribution Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+
+<div align="center">
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="100%" />
 
