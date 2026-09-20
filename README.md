@@ -1,6 +1,6 @@
 <div align="center">
 
-# Sreesanth R
+# Sreesanth R aka Shreesh
 ### **Systems Architect & AI Infrastructure Engineer**
 *Chennai, India &bull; Technical Lead @ HackerRank Campus Crew &bull; Systems Lead @ AetherCode*
 
