@@ -1,87 +1,116 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a2942,100:58a6ff&height=140&section=header&text=Sreesanth%20R&fontSize=40&fontColor=ffffff&fontAlignY=45&desc=Backend%20and%20Systems%20Engineer&descAlignY=68&descSize=16&descColor=8b949e&animation=fadeIn" width="100%" />
+```
+╭─────────────────────────────────────────────────────────────────────╮
+│                                                                     │
+│   $ whoami                                                          │
+│   Sreesanth R  ·  Backend and Systems Engineer  ·  Chennai, India  │
+│                                                                     │
+│   $ cat stack.txt                                                   │
+│   Go · Python · TypeScript · C++                                   │
+│   gRPC · FastAPI · Node.js · PostgreSQL · Redis                    │
+│   Docker · Kubernetes · Terraform · AWS · Azure                    │
+│   PyTorch · LangGraph · vLLM · NVIDIA NIM · llama.cpp             │
+│                                                                     │
+│   $ cat recognition.txt                                             │
+│   Databricks Student Fellow APJ 2026  [1 of 38 / 7,171 global]    │
+│   Presidio PRIME SWE Intern           [1 of 15 / 2,000+ applicants]│
+│   AI Research Intern @ IIT Jammu                                   │
+│   HackerRank Campus Crew — Technical Lead                          │
+│   AWS Student Builder Group — Campus Leader                        │
+│   Google Developer Group SJCE — Technical Coordinator             │
+│                                                                     │
+│   $ uptime                                                          │
+│   B.Tech AI & ML · St. Joseph's College (Anna University)         │
+│   CGPA 8.40 / 10 · Expected May 2028                              │
+│                                                                     │
+╰─────────────────────────────────────────────────────────────────────╯
+```
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Go+%7C+Python+%7C+TypeScript+%7C+C%2B%2B;gRPC+Microservices+%7C+AI+Inference+%7C+GPU+Infrastructure;Building+systems+that+scale" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=14&duration=3500&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Patching+llama.cpp+for+2.5x+speculative+decoding+throughput...;Shipping+gRPC+microservices+in+Go...;Tuning+NUMA+topology+on+dual-EPYC+bare-metal...;Building+agentic+AI+pipelines+that+run+in+production...;▊" alt="Typing SVG" />
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Shreesh-Sree&style=flat-square&color=58a6ff&label=Profile+Views)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sree-santh)
-[![Portfolio](https://img.shields.io/badge/Portfolio-shreesh--sree.dev-0f172a?style=flat-square&logo=vercel&logoColor=white)](https://shreesh-sree.dev)
-[![Codolio](https://img.shields.io/badge/Codolio-6c47ff?style=flat-square)](https://codolio.com/profile/shreesh-22)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shreesh.exe22@gmail.com)
+![Profile Views](https://komarev.com/ghpvc/?username=Shreesh-Sree&style=flat-square&color=58a6ff&label=profile+views)
+&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/linkedin-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sree-santh)
+[![Portfolio](https://img.shields.io/badge/portfolio-shreesh--sree.dev-0f172a?style=flat-square&logo=vercel&logoColor=white)](https://shreesh-sree.dev)
+[![Codolio](https://img.shields.io/badge/codolio-6c47ff?style=flat-square)](https://codolio.com/profile/shreesh-22)
+[![Email](https://img.shields.io/badge/email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shreesh.exe22@gmail.com)
 
 </div>
 
 ---
 
-### About
+```
+$ ls ./projects
+```
 
-Backend and systems engineer based in Chennai, India. I work primarily in **Go**, **Python**, and **TypeScript** — building gRPC microservices, AI inference pipelines, and bare-metal GPU infrastructure.
+**[AetherCode](https://github.com/Shreesh-Sree/Aethercode-main)** — Multi-tenant coding assessment platform
+`Go` `gRPC` `PostgreSQL` `Casbin` `Kubernetes`
+Isolated execution per tenant. gRPC microservices, Casbin RBAC with short-lived HMAC capabilities, PostgreSQL row-level security, Judge0 isolated behind a completion-only bridge.
 
-I work close to the metal: patching llama.cpp at the C++ level for speculative decoding, tuning NUMA topology and hugepages on dual-EPYC servers, building agentic AI systems that run in production.
+**FastMTP** — Speculative decoding patch for llama.cpp · [`feat/fastmtp-ollama`](https://github.com/Shreesh-Sree/llama.cpp/tree/feat/fastmtp-ollama)
+`C++` `GGML` `CUDA`
+Patched qwen35/qwen35moe with `d2t` draft-vocabulary trimming and logit scattering. Throughput: **44.5 → 113.9 tok/s** on RTX Pro 6000 Blackwell (~2.5x).
 
-- B.Tech in AI & ML at **St. Joseph's College of Engineering** (Anna University) · CGPA 8.40 · Expected 2028
-- SWE Intern at **Presidio Inc.** (PRIME program — 1 of 15 from 2,000+ applicants)
-- AI Research Intern at **Indian Institute of Technology Jammu**
-- Technical Lead, HackerRank Campus Crew · Campus Leader, AWS Student Builder Group · Technical Coordinator, GDG SJCE
+**[Blackwell GPU Slicing](https://github.com/Shreesh-Sree/blackwell-gpu-slicing)** — Bare-metal multi-tenant GPU allocation
+`Slurm` `NVIDIA MPS` `NVIDIA MIG` `CUDA`
+Dynamic MPS/MIG resource management on Dual AMD EPYC 9554 (256 threads) + Dual RTX Pro 6000 Blackwell 96GB. Prolog/epilog hooks for instant VRAM reclaim.
 
----
+**[Enterprise Edge Architecture](https://github.com/Shreesh-Sree/Server-Cloudflare-Architecture)** — Zero-trust production edge
+`Traefik` `Cloudflare Tunnels` `Zitadel SSO` `Prometheus` `Grafana`
+Zero-open-port edge across 15+ institutional microservices. Dynamic TLS, Cloudflare tunnels, OIDC SSO, full Prometheus/Grafana observability.
 
-### Recognition
+**VeraQX** — Citation-grounded support triage agent · built in 24h
+`Go` `Hybrid RAG` `Okapi BM25` `RRF`
+Fuses BM25 keyword search with vector search via Reciprocal Rank Fusion for precision-ranked, source-attributed answers.
 
-<div align="center">
+**Reimbursement Tool** — Presidio intern capstone
+`FastAPI` `React` `PostgreSQL` `Supabase` `Terraform` `Azure`
+Multi-tenant expense platform with tenant-scoped RBAC, multi-level approval workflows, complete audit logging.
 
-![Databricks Fellow](https://img.shields.io/badge/Databricks_Student_Fellow_APJ_2026-FF3621?style=for-the-badge&logo=databricks&logoColor=white)
-![Presidio PRIME](https://img.shields.io/badge/Presidio_PRIME_SWE-1_of_15_from_2000%2B-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![HackerRank TL](https://img.shields.io/badge/HackerRank_Campus_Crew-Technical_Lead-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)
-![AWS Builder](https://img.shields.io/badge/AWS_Student_Builder-Campus_Leader-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GDG](https://img.shields.io/badge/Google_Developer_Group-Technical_Coordinator-4285F4?style=for-the-badge&logo=google&logoColor=white)
-
-</div>
-
----
-
-### Currently Building
-
-| Project | Stack | Status |
-|:---|:---|:---|
-| AetherCode — Multi-tenant assessment platform | Go · gRPC · PostgreSQL · Casbin · K8s | Active |
-| FastMTP — llama.cpp speculative decoding | C++ · GGML · CUDA | In review |
-| HRCC Bot — Agentic campus event support | Python · LangGraph · vLLM · Discord.py | Active |
-| LearnHouse SEB integration | FastAPI · Python · SQLModel | In progress |
+**[LearnHouse](https://github.com/learnhouse/learnhouse)** — Open source contributor
+`FastAPI` `Python` `SQLModel` `PostgreSQL`
+Extending the backend of an AGPL-3.0 learning platform. Currently integrating Safe Exam Browser (SEB) for proctored assessment delivery.
 
 ---
 
-### Languages
+```
+$ cat currently_building.md
+```
+
+| project | stack | status |
+|:--------|:------|:-------|
+| AetherCode — multi-tenant assessment platform | Go · gRPC · PostgreSQL · Casbin · K8s | active |
+| FastMTP — llama.cpp speculative decoding patch | C++ · GGML · CUDA | in review |
+| HRCC Bot — agentic campus event support | Python · LangGraph · vLLM · Discord.py | active |
+| LearnHouse SEB integration | FastAPI · Python · SQLModel | in progress |
+
+---
+
+```
+$ cat skills.txt
+```
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=go,python,ts,cpp" />
 
-</div>
-
----
-
-### Stack
-
-<div align="center">
-
-**Backend**
+<br/>
 
 <img src="https://skillicons.dev/icons?i=fastapi,nodejs,react,nextjs,express" />
 
-**Infrastructure**
+<br/>
 
 <img src="https://skillicons.dev/icons?i=postgres,redis,docker,kubernetes,terraform,aws,azure,linux" />
 
-**AI / ML**
+<br/>
 
 <img src="https://skillicons.dev/icons?i=pytorch,opencv" />
 
-&nbsp;
+<br/>
+
 ![vLLM](https://img.shields.io/badge/vLLM-412991?style=flat-square)
 ![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square)
@@ -92,56 +121,16 @@ I work close to the metal: patching llama.cpp at the C++ level for speculative d
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![Slurm](https://img.shields.io/badge/Slurm-1a7abf?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-FF6B35?style=flat-square)
+![Gin](https://img.shields.io/badge/Gin-00ADD8?style=flat-square&logo=go&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-FF0000?style=flat-square&logo=redis&logoColor=white)
 
 </div>
 
 ---
 
-### Projects
-
-**[AetherCode](https://github.com/Shreesh-Sree/Aethercode-main)** — Multi-tenant coding assessment platform
-`Go` `gRPC` `PostgreSQL` `Casbin` `Kubernetes`
-Isolated execution per tenant. gRPC microservices, Casbin RBAC with short-lived HMAC capabilities, PostgreSQL row-level security, Judge0 isolated behind a completion-only bridge.
-
----
-
-**FastMTP** — Speculative decoding patch for llama.cpp
-`C++` `GGML` `CUDA`
-Patched qwen35/qwen35moe with d2t draft-vocabulary trimming and logit scattering. Throughput: **44.5 to 113.9 tok/s** (~2.5x) on RTX Pro 6000 Blackwell. Branch: [feat/fastmtp-ollama](https://github.com/Shreesh-Sree/llama.cpp/tree/feat/fastmtp-ollama)
-
----
-
-**[Blackwell GPU Slicing](https://github.com/Shreesh-Sree/blackwell-gpu-slicing)** — Bare-metal multi-tenant GPU allocation
-`Slurm` `NVIDIA MPS` `NVIDIA MIG` `CUDA`
-Dynamic MPS/MIG resource management on Dual AMD EPYC 9554 (256 threads) + Dual RTX Pro 6000 Blackwell 96GB. Prolog/epilog hooks for instant VRAM reclaim on job exit.
-
----
-
-**[Enterprise Edge Architecture](https://github.com/Shreesh-Sree/Server-Cloudflare-Architecture)** — Zero-trust production edge
-`Traefik` `Cloudflare Tunnels` `Zitadel SSO` `Prometheus` `Grafana`
-Zero-open-port edge across 15+ institutional microservices. Reverse proxy, dynamic TLS, Cloudflare tunnels, OIDC SSO, full Prometheus/Grafana observability.
-
----
-
-**VeraQX** — Hackathon: citation-grounded triage agent in 24 hours
-`Go` `Hybrid RAG` `Okapi BM25` `RRF`
-Terminal-based agent fusing BM25 keyword search and vector search via Reciprocal Rank Fusion for precision-ranked, source-attributed answers.
-
----
-
-**Reimbursement Tool** — Presidio intern capstone
-`FastAPI` `React` `PostgreSQL` `Supabase` `Terraform` `Azure`
-Multi-tenant expense platform with tenant-scoped RBAC, multi-level approval workflows, and complete audit logging.
-
----
-
-**[LearnHouse](https://github.com/learnhouse/learnhouse)** — Open source contributor
-`FastAPI` `Python` `SQLModel` `PostgreSQL`
-Extending the backend of an AGPL-3.0 learning platform. Currently integrating Safe Exam Browser (SEB) support for locked-down, proctored assessment delivery.
-
----
-
-### GitHub Stats
+```
+$ git log --stat --summary
+```
 
 <div align="center">
 
@@ -179,7 +168,9 @@ Extending the backend of an AGPL-3.0 learning platform. Currently integrating Sa
 
 ---
 
-### Contribution Graph
+```
+$ git log --graph --oneline   # contribution snake
+```
 
 <div align="center">
 
@@ -189,14 +180,14 @@ Extending the backend of an AGPL-3.0 learning platform. Currently integrating Sa
   <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake-dark.svg" />
 </picture>
 
-</div>
-
----
-
-<div align="center">
+<br/>
 
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" width="100%" />
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:1a2942,100:0d1117&height=100&section=footer&animation=fadeIn" width="100%" />
+---
+
+<div align="center">
+<sub><code>shreesh.exe22@gmail.com · shreesh-sree.dev · Chennai, India</code></sub>
+</div>
