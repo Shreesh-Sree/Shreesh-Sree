@@ -18,6 +18,16 @@ Backend and systems engineer specializing in low-level AI inference acceleration
 
 ---
 
+### Live Portfolio
+
+[![shreesh-sree.dev](assets/portfolio-preview.png)](https://shreesh-sree.dev)
+
+<div align="center">
+<sub>Click window to launch live deployment &bull; <a href="https://shreesh-sree.dev">shreesh-sree.dev</a></sub>
+</div>
+
+---
+
 ### Bare-Metal Compute & Infrastructure Testbed
 
 All low-level inference experiments, kernel benchmarks, and multi-tenant services run on bare-metal hardware:
