@@ -9,12 +9,20 @@ Chennai, India &bull; Technical Lead @ HackerRank Campus Crew &bull; Systems Lea
 
 ### Overview
 
-Backend and systems engineer specializing in low-level AI inference optimization, bare-metal cluster orchestration, and zero-trust distributed architectures. Currently pursuing a B.Tech in Artificial Intelligence & Machine Learning at St. Joseph's College of Engineering, Anna University (CGPA 8.40 / 10).
+Backend and systems engineer specializing in low-level AI inference acceleration, bare-metal cluster orchestration, and zero-trust distributed architectures. Currently pursuing a B.Tech in Artificial Intelligence & Machine Learning at St. Joseph's College of Engineering, Anna University (CGPA 8.40 / 10).
 
 - **Low-Level Inference Engineering:** Author of speculative decoding patches for `llama.cpp` (`FastMTP` draft-vocabulary trimming), achieving 2.5x token throughput acceleration on NVIDIA Blackwell architectures.
 - **Bare-Metal Cluster Orchestration:** Architect of multi-tenant compute frameworks using Slurm, NVIDIA MPS, and dynamic MIG resource slicing on dual AMD EPYC (256 threads) and dual RTX Pro 6000 Blackwell workstations.
 - **Zero-Trust Edge Networks:** Engineered enterprise edge architectures running 15+ isolated microservices with Traefik, Cloudflare Zero-Trust tunnels, and Zitadel OIDC authentication.
 - **Selective Engineering Programs:** Former SDE Intern at Presidio (PRIME program, selected 1 of 15 from 2,000+ applicants), AI Research Intern at IIT Jammu, and Databricks Student Fellow APJ 2026 (selected 1 of 38 from 7,171 global applicants).
+
+---
+
+### Active Focus & Research
+
+- **Speculative Inference:** Extending draft-vocabulary trimming and tensor logit scattering to Multi-Token Prediction (MTP) architectures.
+- **Bare-Metal Memory Tiering:** NUMA-aware dynamic VRAM allocation and automated kernel hooks for high-density multi-tenant LLM serving.
+- **Sandboxed Execution Security:** Zero-leakage isolation primitives using Linux cgroups, namespaces, and seccomp filters for untrusted code execution.
 
 ---
 
@@ -87,6 +95,23 @@ Backend and systems engineer specializing in low-level AI inference optimization
 
 ---
 
+### Upstream Open-Source Contributions
+
+| Project | Area | Contribution & Technical Impact | Link |
+|:---|:---|:---|:---|
+| **`ggml-org/llama.cpp`** | Speculative Decoding | Built `d2t` draft-vocabulary tensor trimming and speculative logit scatter kernels for Qwen-35 models (+156% tok/s). | [`feat/fastmtp-ollama`](https://github.com/Shreesh-Sree/llama.cpp/tree/feat/fastmtp-ollama) |
+| **`learnhouse/learnhouse`** | Assessment Infrastructure | Integrated Safe Exam Browser (SEB) proctoring protocol into backend service layer (AGPL-3.0). | [learnhouse](https://github.com/learnhouse/learnhouse) |
+
+---
+
+### Engineering Principles
+
+- **Zero-Allocation Hot Paths:** Eliminate heap allocations inside critical tensor operations, speculative validation loops, and high-frequency gRPC streams.
+- **Default-Deny Boundary Isolation:** Enforce capability-based tokens, strict tenant row-level security, and hardened Linux kernel cgroups over implicit application trust.
+- **Deterministic Resilience:** Favor explicit state machine transitions, circuit breakers, and bounded work queues over unbounded heuristic retries.
+
+---
+
 ### Technical Arsenal
 
 | Domain | Technologies & Frameworks |
@@ -98,6 +123,13 @@ Backend and systems engineer specializing in low-level AI inference optimization
 | **Databases & Storage** | PostgreSQL (Row-Level Security, pgvector), Redis, SQLite, ClickHouse |
 | **Infrastructure & Networking** | Terraform, AWS (ECS, Lambda), Azure, Cloudflare Zero-Trust, Traefik, Zitadel OIDC |
 | **Observability & Telemetry** | Prometheus, Grafana, OpenTelemetry, Linux Kernel Tuning (`sysctl`, HugePages, NUMA) |
+
+---
+
+### Problem Solving & Foundations
+
+- Active competitive problem solving across **[Codolio (`shreesh-22`)](https://codolio.com/profile/shreesh-22)**, LeetCode, and HackerRank.
+- Core algorithmic focus: Graph Algorithms, Dynamic Programming, Distributed Consensus, and Low-Level Concurrency Primitives.
 
 ---
 
