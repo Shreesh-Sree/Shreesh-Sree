@@ -1,153 +1,116 @@
 <div align="center">
 
-# Sreesanth R aka Shreesh
-### **Systems Architect & AI Infrastructure Engineer**
-*Chennai, India &bull; Technical Lead @ HackerRank Campus Crew &bull; Systems Lead @ AetherCode*
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Hey%2C+I'm+Sreesanth+%F0%9F%91%8B;Backend+%26+Systems+Engineer;Go+%7C+Python+%7C+TypeScript;Building+things+that+scale" alt="Typing SVG"/>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/sree-santh)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Shreesh-Sree)
 [![Portfolio](https://img.shields.io/badge/Portfolio-shreesh--sree.dev-0f172a?style=flat-square&logo=vercel&logoColor=white)](https://shreesh-sree.dev)
 [![Codolio](https://img.shields.io/badge/Codolio-shreesh--22-6c47ff?style=flat-square&logo=codeforces&logoColor=white)](https://codolio.com/profile/shreesh-22)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shreesh.exe22@gmail.com)
-
-<br/>
+[![Email](https://img.shields.io/badge/shreesh.exe22@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:shreesh.exe22@gmail.com)
 
 </div>
 
 ---
 
-### 👨‍💻 Executive Profile
+### About Me
 
-I am a Systems Architect and Backend/AI Infrastructure Engineer focused on building high-performance distributed systems, low-level LLM inference engines, and enterprise edge architectures. Currently pursuing B.Tech in **Artificial Intelligence & Machine Learning** at **St. Joseph's College of Engineering, Anna University** (CGPA 8.40 / 10 · Expected May 2028).
+I'm a backend & systems engineer based in Chennai, India. I spend most of my time writing **Go**, **Python**, and **TypeScript** — building things from gRPC microservices and AI inference pipelines to bare-metal GPU infrastructure.
 
-* ⚡ **High-Performance AI Inference:** Author of low-level speculative decoding patches for `llama.cpp` (FastMTP draft-vocabulary trimming), achieving 2.3x–2.5x tok/s acceleration on Blackwell architectures.
-* 🖥️ **GPU & Cluster Orchestration:** Designing bare-metal multi-tenant GPU allocation frameworks using **Slurm, NVIDIA MPS, and MIG** on Dual AMD EPYC 256-thread, Dual NVIDIA RTX Pro 6000 Blackwell workstations.
-* 🌐 **Edge & Zero-Trust Cloud Infrastructure:** Architecting production edge networks using **Traefik, Cloudflare Zero Trust tunnels, Zitadel OIDC SSO, and Prometheus/Grafana** observability suites.
-* 🎓 **Leadership & Community:** Technical Lead for the **HackerRank Campus Crew (HRCC)** program, empowering student ambassadors with automated support agents, test delivery platforms, and event analytics.
-* 🏅 **Databricks Student Fellow APJ 2026** — selected as 1 of 38 from 7,171 global applicants.
+I enjoy working close to the metal. I've patched **llama.cpp** at the C++ level for speculative decoding throughput, tuned NUMA topology and hugepages on dual-EPYC servers, and shipped agentic AI systems that actually run in production.
 
----
+When I'm not writing backend code, I'm contributing to open source, running coding events as a **HackerRank Campus Crew Technical Lead**, or figuring out how to make LLMs go faster.
 
-### 🛠️ Core Engineering Competencies
-
-<div align="center">
-
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Primary Languages** | `Go` &bull; `Python` &bull; `TypeScript` &bull; `C++` |
-| **Backend & APIs** | `Gin` &bull; `FastAPI` &bull; `Node.js` &bull; `gRPC` &bull; `Express` &bull; `Fastify` &bull; `BullMQ` &bull; `WebSockets / SSE` |
-| **AI Systems & Inference** | `CUDA` &bull; `llama.cpp` &bull; `vLLM` &bull; `NVIDIA NIM` &bull; `PyTorch` &bull; `Ollama` &bull; `LangGraph` &bull; `RAG Pipelines` &bull; `MCP` |
-| **Distributed Systems & Edge** | `Slurm` &bull; `NVIDIA MPS` &bull; `Docker` &bull; `Podman` &bull; `Kubernetes / K3s` &bull; `Traefik` &bull; `Cloudflare Tunnels` |
-| **Databases & Telemetry** | `PostgreSQL` &bull; `pgvector` &bull; `ClickHouse` &bull; `Redis` &bull; `SQLite` &bull; `Prometheus` &bull; `Grafana` |
-| **Cloud & DevOps** | `AWS (ECS, Lambda)` &bull; `Azure` &bull; `Terraform` &bull; `CI/CD` &bull; `Kubernetes` |
-
-</div>
+- 🎓 B.Tech in AI & ML @ **St. Joseph's College of Engineering** (Anna University) · CGPA **8.40** · 2028
+- 🏅 **Databricks Student Fellow APJ 2026** — 1 of 38 selected from 7,171 global applicants
+- 🛠 Interned at **Presidio Inc.** (PRIME SWE, 1-of-15 from 2000+ applicants) & **IIT Jammu** (AI Research)
+- 📍 Chennai, India · Open to Backend, AI Systems & Infrastructure roles
 
 ---
 
-### 💼 Work Experience
+### Tech Stack
 
-#### Software Development Engineer Intern & Agentic AI Research Intern
-**Presidio Inc.** · Hybrid, Chennai · Jun 2026 – Jul 2026
+**Languages I work in daily**
 
-> Selected for the **PRIME Software Engineering Internship** as **1 of 15 from 2,000+ applicants** through multi-round technical and system-design screening.
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 
-- Shipped **JWT/RBAC-secured Node.js microservices** with automated CI/CD pipelines to AWS ECS and Cloud Run by decomposing a monolithic auth flow into independently deployable services with role-scoped access control.
-- Built a **React 19 + TypeScript operations dashboard** with TanStack Query for cache-consistent data fetching and JWT-focused security test cases against the auth boundary.
-- Designed **agentic pipelines with LangGraph & Ollama** to automate secure parsing and structured extraction from unstructured documents, reducing manual document-review effort in internal workflows.
+**Backend**
 
-#### Agentic AI Research Intern
-**Indian Institute of Technology Jammu** · On-site, Jammu · Jun 2026 – Jul 2026
+![Gin](https://img.shields.io/badge/Gin-00ADD8?style=flat-square&logo=go&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-4285F4?style=flat-square&logo=google&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-FF0000?style=flat-square&logo=redis&logoColor=white)
 
-- Improved SLS 3D-printing dimensional accuracy by **12%** by implementing **physics-informed neural networks in PyTorch** with custom energy-density constraints to model print-parameter behaviour.
-- Built numerical simulation pipelines for printer thermal accumulation, modelling heat-transfer dynamics across print cycles to validate PINN predictions against physical printer output.
+**Data & Infrastructure**
 
----
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Traefik](https://img.shields.io/badge/Traefik-24A1C1?style=flat-square&logo=traefikproxy&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 
-### 🚀 Featured Systems & Architecture
+**AI / ML**
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### ⚡ Blackwell Dynamic GPU Slicing & Slurm
-* **Architecture:** Custom multi-tenant compute engine for Dual AMD EPYC 9554 (256 threads) + Dual NVIDIA RTX Pro 6000 Blackwell 96GB.
-* **Impact:** Implemented dynamic NVIDIA MPS & MIG resource managers, Slurm cluster configs, and automated prolog/epilog hooks that immediately reclaim idle VRAM upon job completion.
-* **Tags:** `C++` &bull; `Slurm` &bull; `NVIDIA MPS` &bull; `CUDA`
-
-</td>
-<td width="50%" valign="top">
-
-#### 🧠 FastMTP Speculative Decoding (`llama.cpp`)
-* **Architecture:** Upstream C++ patch for `qwen35` and `qwen35moe` architectures introducing `d2t` draft-vocabulary trimming and logit scattering.
-* **Impact:** Reduced speculative draft tensor overhead from 152k to trimmed draft dimensions, increasing generation throughput from **44.5 tok/s to 113.9 tok/s** (~2.5x speedup).
-* **Tags:** `C++` &bull; `llama.cpp` &bull; `CUDA Kernels` &bull; `GGML`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🛡️ Enterprise Edge & Cloudflare Architecture
-* **Architecture:** Production edge network orchestrating reverse proxying, dynamic TLS, Cloudflare tunnels, and Zitadel SSO across 15+ institutional microservices.
-* **Impact:** Zero-open-port security model with real-time Prometheus/Grafana telemetry, automated SSL renewal, and sub-millisecond local routing.
-* **Tags:** `Traefik` &bull; `Cloudflare Tunnels` &bull; `Zitadel SSO` &bull; `Grafana`
-
-</td>
-<td width="50%" valign="top">
-
-#### 💻 AetherCode — Multi-Tenant Assessment Platform
-* **Architecture:** Go microservices over gRPC-defined contracts with Casbin-backed authorization, PostgreSQL row-level security, and a completion-only Judge0 execution bridge.
-* **Impact:** Eliminated cross-tenant data exposure risk with short-lived HMAC capabilities and kernel-level limits tuning (`sysctl`, `limits.conf`) for campus-wide concurrent exams.
-* **Tags:** `Go` &bull; `gRPC` &bull; `PostgreSQL` &bull; `Casbin` &bull; `Kubernetes`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🔍 VeraQX — Enterprise Support Triage Agent
-* **Architecture:** Terminal-based Go application fusing Okapi BM25 keyword search with vector search via Reciprocal Rank Fusion (RRF) for citation-grounded answers.
-* **Impact:** Delivered a working triage agent within a **24-hour hackathon window**.
-* **Tags:** `Go` &bull; `Hybrid RAG` &bull; `Okapi BM25` &bull; `RRF`
-
-</td>
-<td width="50%" valign="top">
-
-#### 📦 LearnHouse — Open Source Contributor
-* **Architecture:** AGPL-3.0 learning platform for course delivery, auto-graded code execution, and analytics; extending the FastAPI/Python/SQLModel service layer.
-* **Impact:** Currently integrating **Safe Exam Browser (SEB)** support to enable locked-down, proctored assessment delivery.
-* **Tags:** `FastAPI` &bull; `Python` &bull; `SQLModel` &bull; `PostgreSQL`
-
-</td>
-</tr>
-</table>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-412991?style=flat-square)
+![NVIDIA NIM](https://img.shields.io/badge/NVIDIA_NIM-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-000000?style=flat-square)
 
 ---
 
-### 🎓 Education
+### What I've Built
 
-**St. Joseph's College of Engineering** *(Anna University)*
-B.Tech, Artificial Intelligence & Machine Learning · **CGPA 8.40 / 10** · Chennai, Tamil Nadu · Expected May 2028
-
-*Relevant Coursework:* Data Structures & Algorithms · Object-Oriented Design · Operating Systems · Database Management Systems · Distributed Systems · Computer Networks
-
----
-
-### 🏆 Leadership & Recognition
-
-| Role | Organisation | Period |
-|:---|:---|:---|
-| 🏅 **Databricks Student Fellow, APJ 2026** | Databricks | 2026 — selected 1 of 38 from 7,171 global applicants |
-| 🛠 **Technical Lead & Campus Ambassador** | HackerRank Campus Crew | Jun 2026 – Present |
-| ☁️ **Campus Leader & Core Member** | AWS Student Builder Group | Jan 2026 – Present |
-| 💡 **Technical Coordinator** | Google Developer Group (GDG) SJCE | Dec 2025 – Present |
+**[AetherCode](https://github.com/Shreesh-Sree/Aethercode-main)** — Multi-tenant coding assessment platform
+Go · gRPC · PostgreSQL · Casbin · Kubernetes
+> Fully isolated execution per tenant — gRPC microservices, Casbin RBAC with HMAC capabilities, PostgreSQL row-level security, and Judge0 behind a completion-only bridge.
 
 ---
 
-### 📊 GitHub Activity & Metrics
+**FastMTP** — Speculative decoding patch for `llama.cpp`
+C++ · GGML · CUDA
+> Patched the qwen35/qwen35moe architecture with `d2t` draft-vocabulary trimming and logit scattering. Took generation from **44.5 → 113.9 tok/s** (~2.5x) on RTX Pro 6000 Blackwell.
+
+---
+
+**Blackwell GPU Slicing** — Bare-metal multi-tenant GPU allocation
+Slurm · NVIDIA MPS · NVIDIA MIG · CUDA
+> Dynamic MPS/MIG resource management on Dual AMD EPYC 9554 (256 threads) + Dual RTX Pro 6000 Blackwell 96GB. Prolog/epilog hooks for instant VRAM reclaim on job exit.
+
+---
+
+**VeraQX** — Hackathon: Support triage agent in 24h
+Go · Hybrid RAG · Okapi BM25 · RRF
+> Terminal-based triage agent that fuses BM25 keyword search + vector search with Reciprocal Rank Fusion. Citation-grounded answers, built in a single hackathon day.
+
+---
+
+**[Reimbursement Tool](https://github.com/Shreesh-Sree/Aethercode-main)** — Presidio intern capstone
+FastAPI · React · PostgreSQL · Supabase · Terraform · Azure
+> Multi-tenant expense platform with RBAC, multi-level approval workflows, and full audit logging. Built during my internship at Presidio.
+
+---
+
+**[LearnHouse](https://github.com/learnhouse/learnhouse)** — Open source contribution
+FastAPI · Python · SQLModel · PostgreSQL
+> Extending the backend of an AGPL-3.0 learning platform. Currently landing Safe Exam Browser (SEB) integration for proctored assessment delivery.
+
+---
+
+**Enterprise Edge & Cloudflare Architecture**
+Traefik · Cloudflare Tunnels · Zitadel SSO · Grafana
+> Zero-open-port production edge across 15+ institutional microservices — reverse proxy, dynamic TLS, Cloudflare tunnels, OIDC SSO, and Prometheus/Grafana observability.
+
+---
+
+### GitHub Stats
 
 <div align="center">
 
@@ -164,22 +127,12 @@ B.Tech, Artificial Intelligence & Machine Learning · **CGPA 8.40 / 10** · Chen
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreesh-Sree&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shreesh-Sree&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 
 </div>
 
 ---
 
 <div align="center">
-
-### 📬 Connect & Collaborate
-
-Interested in high-performance computing, AI systems architecture, or distributed engineering? Let's connect!
-
-[![Email](https://img.shields.io/badge/shreesh.exe22%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:shreesh.exe22@gmail.com)
-[![GitHub](https://img.shields.io/badge/Shreesh--Sree-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Shreesh-Sree)
-[![Portfolio](https://img.shields.io/badge/shreesh--sree.dev-0f172a?style=for-the-badge&logo=vercel&logoColor=white)](https://shreesh-sree.dev)
-
-<sub>Designed & Architected by Sreesanth R &bull; 2026</sub>
-
+<sub>Chennai, India · <a href="mailto:shreesh.exe22@gmail.com">shreesh.exe22@gmail.com</a> · <a href="https://shreesh-sree.dev">shreesh-sree.dev</a></sub>
 </div>
