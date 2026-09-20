@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Sreesanth+R;Backend+%26+Systems+Engineer;Go+%7C+Python+%7C+TypeScript+%7C+C%2B%2B;Building+systems+that+scale" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Sreesanth+R;Backend+%26+Systems+Engineer;Go+%7C+Python+%7C+TypeScript+%7C+C%2B%2B;Building+systems+that+scale" alt="Typing SVG" />
 
 <br/>
 
@@ -119,26 +119,31 @@ Extending the backend of an AGPL-3.0 learning platform. Currently integrating Sa
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shreesh-Sree&theme=github_dark" width="100%" alt="Profile Overview"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Shreesh-Sree&theme=github_dark" width="100%" />
 
 <br/>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shreesh-Sree&theme=github_dark" width="32%" alt="Stats"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shreesh-Sree&theme=github_dark" width="32%" alt="Repos by Language"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shreesh-Sree&theme=github_dark" width="32%" alt="Commits by Language"/>
-
-<br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Shreesh-Sree&theme=github_dark" width="49%" alt="Productive Time"/>
-<img src="https://streak-stats.demolab.com/?user=Shreesh-Sree&theme=github-dark-blue&hide_border=true&background=1B2027&stroke=30363D&ring=58a6ff&fire=ff7b72&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" width="49%" alt="GitHub Streak"/>
-
-<br/>
-
-<img src="https://github-widgetbox.vercel.app/api/profile?username=Shreesh-Sree&data=followers,repositories,stars,commits&theme=darkmode" width="100%" alt="Profile Widget"/>
-
-<br/>
-
-<img src="https://github-widgetbox.vercel.app/api/languages?username=Shreesh-Sree&theme=darkmode&langs_count=8&include_private=true" width="100%" alt="Language Distribution"/>
+<table>
+<tr>
+<td>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Shreesh-Sree&theme=github_dark" />
+</td>
+<td>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Shreesh-Sree&theme=github_dark" />
+</td>
+<td>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Shreesh-Sree&theme=github_dark" />
+</td>
+</tr>
+<tr>
+<td>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Shreesh-Sree&theme=github_dark" />
+</td>
+<td colspan="2">
+<img src="https://streak-stats.demolab.com/?user=Shreesh-Sree&theme=github-dark-blue&hide_border=true&background=1B2027&stroke=30363D&ring=58a6ff&fire=ff7b72&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
+</td>
+</tr>
+</table>
 
 </div>
 
