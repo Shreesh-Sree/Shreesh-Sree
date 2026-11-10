@@ -1458,21 +1458,14 @@
   ],
   [
    "2026-11-10",
-   2
+   3
   ]
  ],
- "commits_ytd": 2044,
- "contrib_total": 2770,
+ "commits_ytd": 2045,
+ "contrib_total": 2771,
  "contributed_to": 32,
  "created_at": "2024-12-19T05:52:32Z",
  "featured": {
-  "Shreesh-Sree/AetherCode-Execution-Engine": {
-   "forks": 0,
-   "lang": null,
-   "license": "AGPL-3.0",
-   "pushed": "2026-10-04T16:19:34Z",
-   "stars": 0
-  },
   "Shreesh-Sree/LearnHouse-StJosephs": {
    "forks": 0,
    "lang": "Python",
@@ -1486,33 +1479,47 @@
    "license": "MIT",
    "pushed": "2026-10-27T18:06:22Z",
    "stars": 0
+  },
+  "stjosephsplacements/AetherCode": {
+   "forks": 0,
+   "lang": "Go",
+   "license": "AGPL-3.0",
+   "pushed": "2026-11-09T04:30:22Z",
+   "stars": 1
+  },
+  "stjosephsplacements/AetherCode-Execution-Engine": {
+   "forks": 9,
+   "lang": "Go",
+   "license": "AGPL-3.0",
+   "pushed": "2026-11-09T09:11:46Z",
+   "stars": 25
   }
  },
  "followers": 30,
  "languages": [
   [
    "Python",
-   0.845500307930309
+   0.7982618827683408
   ],
   [
    "TypeScript",
-   0.07556801056001278
+   0.09777650094873741
   ],
   [
-   "Cython",
-   0.03485897212232295
+   "Go",
+   0.03792843373669285
+  ],
+  [
+   "PLpgSQL",
+   0.02661653636911332
   ],
   [
    "C",
-   0.017206504581120195
+   0.01622799203662027
   ],
   [
    "JavaScript",
-   0.011456951763190032
-  ],
-  [
-   "C++",
-   0.006270438480148479
+   0.010846077675483217
   ]
  ],
  "prs": [
