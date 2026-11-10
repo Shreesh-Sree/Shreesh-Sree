@@ -1,0 +1,150 @@
+{
+  "user": "Shreesh-Sree",
+  "name": "Shreesh",
+  "alias": "shreesh",
+  "host": "chennai",
+  "tz_offset_minutes": 330,
+  "tagline": "backend · distributed systems · LLM inference · security research",
+  "roles": [
+    "systems engineer",
+    "co-founder @ algoqx",
+    "security researcher @ hackerrank",
+    "llama.cpp contributor",
+    "databricks fellow, apj 2026"
+  ],
+  "boot": [
+    ["OK", "loading kernel: shreesh"],
+    ["OK", "mounted /dev/llm-inference"],
+    ["OK", "started grpc mesh (11 services)"],
+    ["OK", "attached sandbox: cgroups + namespaces + seccomp"],
+    ["WARN", "chai levels low, continuing anyway"]
+  ],
+  "neofetch": [
+    ["user", "Shreesh"],
+    ["role", "backend · infra · LLM systems"],
+    ["now", "co-founder @ AlgoQX"],
+    ["crew", "security researcher + tech lead"],
+    ["", "@ HackerRank Campus Crew"],
+    ["prev", "SDE intern @ Presidio"],
+    ["", "research intern @ IIT Jammu"],
+    ["edu", "B.Tech AI & ML @ SJCE, 2028"],
+    ["fellow", "Databricks APJ 2026"],
+    ["tools", "Claude Code · Codex · Git"]
+  ],
+  "links": [
+    ["portfolio", "https://shreesh-sree.dev"],
+    ["linkedin", "https://linkedin.com/in/sree-santh"],
+    ["x", "https://x.com/shreesh_algoqx"],
+    ["algoqx", "https://algoqx.tech"],
+    ["codolio", "https://codolio.com/profile/shreesh-22"],
+    ["mail", "mailto:shreesh.exe22@gmail.com"]
+  ],
+  "ignore_languages": ["HTML", "CSS", "Jupyter Notebook", "Dockerfile", "Makefile", "Shell", "Smarty", "Mustache", "Procfile", "Batchfile", "PowerShell"],
+  "projects": [
+    {
+      "id": "01",
+      "name": "aethercode",
+      "repo": "Shreesh-Sree/Aethercode-main",
+      "subtitle": "open-source coding assessment platform",
+      "stack": "go · grpc · postgres · casbin · k8s",
+      "points": [
+        "runs exams for 10,000+ students",
+        "11 go services, one schema each",
+        "casbin + 5s hmac caps + row-level sec",
+        "seb lockdown · vectorless rag",
+        "172 commits · 22 ADRs"
+      ]
+    },
+    {
+      "id": "02",
+      "name": "aethercode-engine",
+      "repo": "Shreesh-Sree/AetherCode-Execution-Engine",
+      "subtitle": "distributed code judge",
+      "stack": "go · redis streams · postgres · sse",
+      "points": [
+        "fair queues · crash reclaim · DLQ",
+        "60K+ submissions / month",
+        "0 lost jobs @ 5k users / 15k subs",
+        "codeql · dependabot · coderabbit",
+        "next: self-healing SRE agent"
+      ]
+    },
+    {
+      "id": "03",
+      "name": "fastmtp",
+      "repo": "Shreesh-Sree/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp/pull/29143",
+      "subtitle": "llama.cpp speculative decoding",
+      "stack": "c++ · cuda · ggml",
+      "points": [
+        "qwen3.5 MTP draft-vocab trim",
+        "152k vocab -> active subspace",
+        "lossless, upstream PR #29143"
+      ],
+      "bars": [["baseline", 0.25, "1.0x"], ["fastmtp", 1.0, "4.0x"]]
+    },
+    {
+      "id": "04",
+      "name": "learnhouse-sjce",
+      "repo": "Shreesh-Sree/LearnHouse-StJosephs",
+      "subtitle": "open-source LMS fork, in prod",
+      "stack": "fastapi · next.js · postgres",
+      "points": [
+        "87 fork commits, synced upstream",
+        "multi-tenant superadmin console",
+        "seb · timed auto-submit · pools",
+        "erpnext roster + gradebook sync",
+        "10,000+ students in production"
+      ]
+    }
+  ],
+  "career": [
+    {"hash": "a1c0de5", "ref": "HEAD -> main", "title": "HackerRank Campus Crew", "when": "Apr 2026 ->",
+     "sub": "security researcher · technical lead · ambassador",
+     "points": ["4-week authorized black-box test of the Desktop App",
+                "2 criticals (CVSS 8.6, 9.6), demoed live to the CTO",
+                "VAPT report (OWASP/PTES/NIST), letter of recognition"]},
+    {"hash": "7f3e9b2", "ref": "", "title": "AlgoQX · co-founder", "when": "Jan 2026 ->",
+     "sub": "LM post-training and AI research",
+     "points": ["RLHF / RLVR, reward + verifier design, sandboxed envs",
+                "led 20 students shipping AetherCode, Engine, LearnHouse"]},
+    {"hash": "5be8a90", "ref": "", "title": "Presidio · SDE intern", "when": "Jun-Jul 2026",
+     "sub": "1 of 15 selected from 2,000+",
+     "points": ["expense platform for 3,000+ employees, FastAPI + 3 AI svcs",
+                "Azure Container Apps · Terraform · 4-role RBAC · OAuth",
+                "150 pytest · 65 FE tests · Playwright · CodeQL · gitleaks"]},
+    {"hash": "3d41e07", "ref": "", "title": "IIT Jammu · research intern", "when": "Jun-Jul 2026",
+     "sub": "agentic AI research",
+     "points": ["PINNs in PyTorch for SLS heat transfer, 12% accuracy gain"]},
+    {"hash": "0000001", "ref": "tag: init", "title": "St. Joseph's College of Engineering", "when": "-> 2028",
+     "sub": "B.Tech AI & ML · Anna University · CGPA 8.23",
+     "points": []}
+  ],
+  "upstream": {
+    "pinned": [
+      "ggml-org/llama.cpp#29143",
+      "interviewstreet/hiring-agent#340",
+      "golang/go#81613"
+    ],
+    "exclude_owners": ["Shreesh-Sree", "stjosephsplacements"],
+    "max_rows": 7
+  },
+  "stack": [
+    ["lang", "Go · Python · C++ · TypeScript · JavaScript · SQL"],
+    ["backend", "FastAPI · gRPC · Gin · Node.js · Express · REST · SSE"],
+    ["ai-ml", "PyTorch · LangGraph · RAG · MCP · llama.cpp · CUDA"],
+    ["data", "PostgreSQL (RLS, pgvector) · Redis Streams · RabbitMQ"],
+    ["infra", "Docker · Kubernetes · Helm · Terraform · AWS · Azure"],
+    ["compute", "Slurm · NVIDIA MPS / MIG · Traefik · Cloudflare ZT"],
+    ["security", "Burp Suite · mitmproxy · OAuth · JWT · Casbin"],
+    ["ci", "GitHub Actions · Playwright · CodeQL · gitleaks"],
+    ["frontend", "React · Next.js"]
+  ],
+  "honors": [
+    ["2026", "Databricks Student Fellow, APJ", "1 of 38 from 7,171"],
+    ["2026", "HackerRank Orchestrate", "3x bronze · best #116, top 6%"],
+    ["2026", "Presidio PRIME SWE", "1 of 15 from 2,000+"],
+    ["2026", "AWS Student Builder Group", "campus leader"],
+    ["cert", "HackerRank", "problem solving · python · sql"]
+  ]
+}

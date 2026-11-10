@@ -1,178 +1,133 @@
-# Sreesanth R
-
-**Systems Architect & Backend Infrastructure Engineer**  
-Chennai, India &bull; Technical Lead @ HackerRank Campus Crew &bull; Systems Lead @ AetherCode
-
-[Portfolio](https://shreesh-sree.dev) &nbsp;&bull;&nbsp; [LinkedIn](https://linkedin.com/in/sree-santh) &nbsp;&bull;&nbsp; [GitHub](https://github.com/Shreesh-Sree) &nbsp;&bull;&nbsp; [Email](mailto:shreesh.exe22@gmail.com) &nbsp;&bull;&nbsp; [Codolio](https://codolio.com/profile/shreesh-22)
-
----
-
-### Overview
-
-Backend and systems engineer specializing in low-level AI inference acceleration, bare-metal cluster orchestration, and zero-trust distributed architectures. Currently pursuing a B.Tech in Artificial Intelligence & Machine Learning at St. Joseph's College of Engineering, Anna University (CGPA 8.40 / 10).
-
-- **Low-Level Inference Engineering:** Author of speculative decoding patches for `llama.cpp` (`FastMTP` draft-vocabulary trimming), achieving 2.5x token throughput acceleration on NVIDIA Blackwell architectures.
-- **Bare-Metal Cluster Orchestration:** Architect of multi-tenant compute frameworks using Slurm, NVIDIA MPS, and dynamic MIG resource slicing on dual AMD EPYC (256 threads) and dual RTX Pro 6000 Blackwell workstations.
-- **Zero-Trust Edge Networks:** Engineered enterprise edge architectures running 15+ isolated microservices with Traefik, Cloudflare Zero-Trust tunnels, and Zitadel OIDC authentication.
-- **Selective Engineering Programs:** Former SDE Intern at Presidio (PRIME program, selected 1 of 15 from 2,000+ applicants), AI Research Intern at IIT Jammu, and Databricks Student Fellow APJ 2026 (selected 1 of 38 from 7,171 global applicants).
-
----
-
-### Active Focus & Research
-
-- **Speculative Inference:** Extending draft-vocabulary trimming and tensor logit scattering to Multi-Token Prediction (MTP) architectures.
-- **Bare-Metal Memory Tiering:** NUMA-aware dynamic VRAM allocation and automated kernel hooks for high-density multi-tenant LLM serving.
-- **Sandboxed Execution Security:** Zero-leakage isolation primitives using Linux cgroups, namespaces, and seccomp filters for untrusted code execution.
-
----
-
-### Featured Systems & Engineering
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### [FastMTP — llama.cpp Speculative Acceleration](https://github.com/Shreesh-Sree/llama.cpp/tree/feat/fastmtp-ollama)
-*Upstream C++ optimization for qwen35 and qwen35moe architectures*
-- Trimmed the 152k speculative vocabulary tensor to active draft subspace dimensions, slashing tensor compute overhead.
-- Engineered logit scattering kernels for low-latency speculative verification.
-- Validated on dual RTX Pro 6000 hardware with **44.5 &rarr; 113.9 tok/s (2.5x sustained speedup)**.
-- **Stack:** `C++`, `CUDA`, `GGML`, `llama.cpp`
-
-</td>
-<td width="50%" valign="top">
-
-#### [AetherCode — Distributed Execution Engine](https://github.com/Shreesh-Sree/Aethercode-main)
-*High-throughput multi-tenant code assessment & judge platform*
-- Architected Go microservices communicating over strict gRPC protobuf definitions.
-- Enforced zero cross-tenant data exposure via Casbin capability-based access control, short-lived HMAC tokens, and PostgreSQL row-level security.
-- Isolated untrusted code evaluation using Judge0 sandboxed worker clusters behind an async completion bridge.
-- **Stack:** `Go`, `gRPC`, `PostgreSQL`, `Casbin`, `Kubernetes`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [Blackwell Dynamic GPU Slicing & Slurm](https://github.com/Shreesh-Sree/blackwell-gpu-slicing)
-*Bare-metal multi-tenant GPU allocation framework*
-- Custom multi-tenant compute engine with dynamic NVIDIA MPS and MIG resource allocation for dual AMD EPYC (256 threads) + dual RTX Pro 6000 GPUs.
-- Automated lifecycle management hooks reducing multi-tenant VRAM reclamation latency from **~45s to <500ms**.
-- **Stack:** `Slurm`, `NVIDIA MPS`, `NVIDIA MIG`, `Linux Kernel`
-
-</td>
-<td width="50%" valign="top">
-
-#### [Enterprise Edge & Cloudflare Architecture](https://github.com/Shreesh-Sree/Server-Cloudflare-Architecture)
-*Zero-trust ingress gateway for production microservices*
-- Production routing across 15+ institutional microservices with zero publicly exposed ports.
-- Automated dynamic TLS certificate renewal, Zitadel OIDC enterprise single sign-on, and sub-millisecond local routing.
-- Real-time Prometheus metrics scraping and Grafana infrastructure dashboards.
-- **Stack:** `Traefik`, `Cloudflare Tunnels`, `Zitadel SSO`, `Prometheus`, `Grafana`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### [VeraQX — Real-Time Support Triage Agent](https://github.com/Shreesh-Sree/Aethercode-main)
-*Citation-grounded hybrid retrieval engine*
-- Fused Okapi BM25 sparse keyword ranking with dense vector embeddings via Reciprocal Rank Fusion (RRF).
-- Terminal-based Go application delivering sub-second source-attributed responses for technical campus support queries.
-- **Stack:** `Go`, `Hybrid RAG`, `Okapi BM25`, `Reciprocal Rank Fusion`
-
-</td>
-<td width="50%" valign="top">
-
-#### [LearnHouse — Proctored Delivery Integration](https://github.com/learnhouse/learnhouse)
-*Open-source learning platform contribution (AGPL-3.0)*
-- Extended FastAPI/SQLModel backend services to support Safe Exam Browser (SEB) configuration and locked-down test delivery.
-- **Stack:** `Python`, `FastAPI`, `SQLModel`, `PostgreSQL`
-
-</td>
-</tr>
-</table>
-
----
-
-### Upstream Open-Source Contributions
-
-| Project | Area | Contribution & Technical Impact | Link |
-|:---|:---|:---|:---|
-| **`ggml-org/llama.cpp`** | Speculative Decoding | Built `d2t` draft-vocabulary tensor trimming and speculative logit scatter kernels for Qwen-35 models (+156% tok/s). | [`feat/fastmtp-ollama`](https://github.com/Shreesh-Sree/llama.cpp/tree/feat/fastmtp-ollama) |
-| **`learnhouse/learnhouse`** | Assessment Infrastructure | Integrated Safe Exam Browser (SEB) proctoring protocol into backend service layer (AGPL-3.0). | [learnhouse](https://github.com/learnhouse/learnhouse) |
-
----
-
-### Engineering Principles
-
-- **Zero-Allocation Hot Paths:** Eliminate heap allocations inside critical tensor operations, speculative validation loops, and high-frequency gRPC streams.
-- **Default-Deny Boundary Isolation:** Enforce capability-based tokens, strict tenant row-level security, and hardened Linux kernel cgroups over implicit application trust.
-- **Deterministic Resilience:** Favor explicit state machine transitions, circuit breakers, and bounded work queues over unbounded heuristic retries.
-
----
-
-### Technical Arsenal
-
-| Domain | Technologies & Frameworks |
-|:---|:---|
-| **Core Languages** | Go, C++, Python, TypeScript, SQL, Bash |
-| **Backend & Distributed Systems** | gRPC, Protocol Buffers, Gin, FastAPI, Node.js, Express, Fastify, BullMQ, WebSockets |
-| **AI Systems & Acceleration** | CUDA, `llama.cpp`, GGML, vLLM, NVIDIA NIM, PyTorch, LangGraph, RAG Pipelines, MCP |
-| **Compute & Orchestration** | Slurm Workload Manager, NVIDIA MPS, NVIDIA MIG, Docker, Podman, Kubernetes, K3s |
-| **Databases & Storage** | PostgreSQL (Row-Level Security, pgvector), Redis, SQLite, ClickHouse |
-| **Infrastructure & Networking** | Terraform, AWS (ECS, Lambda), Azure, Cloudflare Zero-Trust, Traefik, Zitadel OIDC |
-| **Observability & Telemetry** | Prometheus, Grafana, OpenTelemetry, Linux Kernel Tuning (`sysctl`, HugePages, NUMA) |
-
----
-
-### Problem Solving & Foundations
-
-- Active competitive problem solving across **[Codolio (`shreesh-22`)](https://codolio.com/profile/shreesh-22)**, LeetCode, and HackerRank.
-- Core algorithmic focus: Graph Algorithms, Dynamic Programming, Distributed Consensus, and Low-Level Concurrency Primitives.
-
----
-
-### Experience & Leadership
-
-- **Presidio Inc.** &bull; *Software Development Engineer Intern (PRIME SWE)* &bull; `Jun 2026 – Jul 2026`
-  - Selected 1 of 15 from 2,000+ applicants. Built JWT/RBAC-secured Node.js microservices deploying to AWS ECS and Cloud Run.
-  - Implemented LangGraph and Ollama agentic pipelines for secure parsing and structured extraction from unstructured corporate documents.
-- **Indian Institute of Technology Jammu** &bull; *Agentic AI Research Intern* &bull; `Jun 2026 – Jul 2026`
-  - Implemented physics-informed neural networks (PINNs) in PyTorch to model heat-transfer dynamics and print-parameter accuracy for SLS 3D manufacturing (12% dimensional accuracy gain).
-- **HackerRank Campus Crew** &bull; *Technical Lead & Campus Ambassador* &bull; `Jun 2026 – Present`
-  - Directing technical test-delivery architecture, automated support tooling, and campus ambassador hackathon operations.
-- **Databricks** &bull; *Student Fellow APJ 2026* &bull; `2026`
-  - Selected 1 of 38 from 7,171 global applicants across the Asia-Pacific & Japan region.
-- **AWS Student Builder Group** &bull; *Campus Leader & Core Member* &bull; `Jan 2026 – Present`
-  - Leading campus-wide cloud computing workshops, hands-on build challenges, and hackathons.
-- **Google Developer Group (GDG) SJCE** &bull; *Technical Coordinator* &bull; `Dec 2025 – Present`
-  - Organizing technical sessions on scalable system architectures, AI/ML, and open-source development.
-
----
-
-### Education
-
-**St. Joseph’s College of Engineering (Anna University)**  
-B.Tech, Artificial Intelligence & Machine Learning &bull; **CGPA: 8.40 / 10** &bull; Expected May 2028 &bull; Chennai, Tamil Nadu  
-*Core Coursework:* Distributed Systems, Operating Systems, Database Management Systems, Computer Networks, Object-Oriented Design, Data Structures & Algorithms.
-
----
-
-### Activity
-
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake.svg" />
-  <img alt="Contribution Snake" src="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
+  <img src="./assets/header-dark.svg" alt="Shreesh: backend, distributed systems, LLM inference, security research" width="100%">
 </picture>
 
+<a href="https://shreesh-sree.dev"><code>[ portfolio ]</code></a> <a href="https://linkedin.com/in/sree-santh"><code>[ linkedin ]</code></a> <a href="https://x.com/shreesh_algoqx"><code>[ x ]</code></a> <a href="https://algoqx.tech"><code>[ algoqx ]</code></a> <a href="https://codolio.com/profile/shreesh-22"><code>[ codolio ]</code></a> <a href="mailto:shreesh.exe22@gmail.com"><code>[ mail ]</code></a>
+
 </div>
 
----
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/neofetch-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/neofetch-light.svg">
+  <img src="./assets/neofetch-dark.svg" alt="neofetch: co-founder @ AlgoQX, security researcher + tech lead @ HackerRank Campus Crew, ex-SDE intern @ Presidio, B.Tech AI & ML @ SJCE 2028, live GitHub stats" width="100%">
+</picture>
 
-<div align="center">
-<sub>Sreesanth R &bull; Chennai, India &bull; <a href="mailto:shreesh.exe22@gmail.com">shreesh.exe22@gmail.com</a> &bull; <a href="https://shreesh-sree.dev">shreesh-sree.dev</a></sub>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg">
+  <img src="./assets/activity-dark.svg" alt="Contribution heatmap for the last year, rendered in ASCII" width="100%">
+</picture>
+
+<p align="center">
+<a href="https://github.com/Shreesh-Sree/Aethercode-main"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-01-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/project-01-light.svg">
+  <img src="./assets/project-01-dark.svg" alt="aethercode: open-source coding assessment platform. runs exams for 10,000+ students; 11 go services, one schema each; casbin + 5s hmac caps + row-level sec; seb lockdown · vectorless rag; 172 commits · 22 ADRs" width="49%">
+</picture></a>
+<a href="https://github.com/Shreesh-Sree/AetherCode-Execution-Engine"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-02-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/project-02-light.svg">
+  <img src="./assets/project-02-dark.svg" alt="aethercode-engine: distributed code judge. fair queues · crash reclaim · DLQ; 60K+ submissions / month; 0 lost jobs @ 5k users / 15k subs; codeql · dependabot · coderabbit; next: self-healing SRE agent" width="49%">
+</picture></a>
+</p>
+<p align="center">
+<a href="https://github.com/ggml-org/llama.cpp/pull/29143"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-03-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/project-03-light.svg">
+  <img src="./assets/project-03-dark.svg" alt="fastmtp: llama.cpp speculative decoding. qwen3.5 MTP draft-vocab trim; 152k vocab -> active subspace; lossless, upstream PR #29143" width="49%">
+</picture></a>
+<a href="https://github.com/Shreesh-Sree/LearnHouse-StJosephs"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/project-04-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/project-04-light.svg">
+  <img src="./assets/project-04-dark.svg" alt="learnhouse-sjce: open-source LMS fork, in prod. 87 fork commits, synced upstream; multi-tenant superadmin console; seb · timed auto-submit · pools; erpnext roster + gradebook sync; 10,000+ students in production" width="49%">
+</picture></a>
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/career-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/career-light.svg">
+  <img src="./assets/career-dark.svg" alt="git log of experience: HackerRank Campus Crew, AlgoQX, Presidio, IIT Jammu, SJCE" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/prs-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/prs-light.svg">
+  <img src="./assets/prs-dark.svg" alt="Live list of upstream pull requests" width="100%">
+</picture>
+
+<!--UPSTREAM:START-->
+<p align="center"><sub>syncing…</sub></p>
+<!--UPSTREAM:END-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/stack-light.svg">
+  <img src="./assets/stack-dark.svg" alt="Tech stack tree and honors log" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/Shreesh-Sree/Shreesh-Sree/output/github-contribution-grid-snake-dark.svg" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/footer-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg">
+  <img src="./assets/footer-dark.svg" alt="uptime and last sync time" width="100%">
+</picture>
+
+<details>
+<summary><code>$ cat profile.txt</code> &nbsp;<sub>(plain text, for screen readers and search)</sub></summary>
+
+**Shreesh** · backend, distributed systems, LLM inference, security research · Chennai, India
+
+**Projects**
+- [aethercode](https://github.com/Shreesh-Sree/Aethercode-main): open-source coding assessment platform (go · grpc · postgres · casbin · k8s). runs exams for 10,000+ students; 11 go services, one schema each; casbin + 5s hmac caps + row-level sec; seb lockdown · vectorless rag; 172 commits · 22 ADRs
+- [aethercode-engine](https://github.com/Shreesh-Sree/AetherCode-Execution-Engine): distributed code judge (go · redis streams · postgres · sse). fair queues · crash reclaim · DLQ; 60K+ submissions / month; 0 lost jobs @ 5k users / 15k subs; codeql · dependabot · coderabbit; next: self-healing SRE agent
+- [fastmtp](https://github.com/ggml-org/llama.cpp/pull/29143): llama.cpp speculative decoding (c++ · cuda · ggml). qwen3.5 MTP draft-vocab trim; 152k vocab -> active subspace; lossless, upstream PR #29143
+- [learnhouse-sjce](https://github.com/Shreesh-Sree/LearnHouse-StJosephs): open-source LMS fork, in prod (fastapi · next.js · postgres). 87 fork commits, synced upstream; multi-tenant superadmin console; seb · timed auto-submit · pools; erpnext roster + gradebook sync; 10,000+ students in production
+
+**Experience**
+- **HackerRank Campus Crew** · Apr 2026 -> · security researcher · technical lead · ambassador
+  - 4-week authorized black-box test of the Desktop App
+  - 2 criticals (CVSS 8.6, 9.6), demoed live to the CTO
+  - VAPT report (OWASP/PTES/NIST), letter of recognition
+- **AlgoQX · co-founder** · Jan 2026 -> · LM post-training and AI research
+  - RLHF / RLVR, reward + verifier design, sandboxed envs
+  - led 20 students shipping AetherCode, Engine, LearnHouse
+- **Presidio · SDE intern** · Jun-Jul 2026 · 1 of 15 selected from 2,000+
+  - expense platform for 3,000+ employees, FastAPI + 3 AI svcs
+  - Azure Container Apps · Terraform · 4-role RBAC · OAuth
+  - 150 pytest · 65 FE tests · Playwright · CodeQL · gitleaks
+- **IIT Jammu · research intern** · Jun-Jul 2026 · agentic AI research
+  - PINNs in PyTorch for SLS heat transfer, 12% accuracy gain
+- **St. Joseph's College of Engineering** · -> 2028 · B.Tech AI & ML · Anna University · CGPA 8.23
+
+**Stack**
+- **lang**: Go · Python · C++ · TypeScript · JavaScript · SQL
+- **backend**: FastAPI · gRPC · Gin · Node.js · Express · REST · SSE
+- **ai-ml**: PyTorch · LangGraph · RAG · MCP · llama.cpp · CUDA
+- **data**: PostgreSQL (RLS, pgvector) · Redis Streams · RabbitMQ
+- **infra**: Docker · Kubernetes · Helm · Terraform · AWS · Azure
+- **compute**: Slurm · NVIDIA MPS / MIG · Traefik · Cloudflare ZT
+- **security**: Burp Suite · mitmproxy · OAuth · JWT · Casbin
+- **ci**: GitHub Actions · Playwright · CodeQL · gitleaks
+- **frontend**: React · Next.js
+
+**Honors**
+- Databricks Student Fellow, APJ: 1 of 38 from 7,171
+- HackerRank Orchestrate: 3x bronze · best #116, top 6%
+- Presidio PRIME SWE: 1 of 15 from 2,000+
+- AWS Student Builder Group: campus leader
+- HackerRank: problem solving · python · sql
+
+</details>
+
+<div align="center"><!--SYNC:START-->
+<sub>last sync … IST</sub>
+<!--SYNC:END--></div>
