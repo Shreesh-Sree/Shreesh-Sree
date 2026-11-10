@@ -60,7 +60,7 @@
 </picture>
 
 <!--UPSTREAM:START-->
-<p align="center"><sub>syncing…</sub></p>
+<p align="center"><sub><a href="https://github.com/ggml-org/llama.cpp/pull/29143"><code>ggml-org/llama.cpp#29143</code></a> &nbsp;·&nbsp; <a href="https://github.com/interviewstreet/hiring-agent/pull/340"><code>interviewstreet/hiring-agent#340</code></a> &nbsp;·&nbsp; <a href="https://github.com/golang/go/pull/81613"><code>golang/go#81613</code></a> &nbsp;·&nbsp; <a href="https://github.com/kubernetes-sigs/cluster-api/pull/14451"><code>kubernetes-sigs/cluster-api#14451</code></a> &nbsp;·&nbsp; <a href="https://github.com/apple/pkl-go/pull/285"><code>apple/pkl-go#285</code></a> &nbsp;·&nbsp; <a href="https://github.com/capitalone/datacompy/pull/598"><code>capitalone/datacompy#598</code></a> &nbsp;·&nbsp; <a href="https://github.com/moby/moby/pull/54105"><code>moby/moby#54105</code></a></sub></p>
 <!--UPSTREAM:END-->
 
 <picture>
@@ -129,5 +129,5 @@
 </details>
 
 <div align="center"><!--SYNC:START-->
-<sub>last sync … IST</sub>
+<sub>last sync 2026-11-10 23:19 IST</sub>
 <!--SYNC:END--></div>
