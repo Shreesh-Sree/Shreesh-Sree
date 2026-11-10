@@ -39,12 +39,12 @@
     ["codolio", "https://codolio.com/profile/shreesh-22"],
     ["mail", "mailto:shreesh.exe22@gmail.com"]
   ],
-  "ignore_languages": ["HTML", "CSS", "Jupyter Notebook", "Dockerfile", "Makefile", "Shell", "Smarty", "Mustache", "Procfile", "Batchfile", "PowerShell"],
+  "ignore_languages": ["Cython", "HTML", "CSS", "Jupyter Notebook", "Dockerfile", "Makefile", "Shell", "Smarty", "Mustache", "Procfile", "Batchfile", "PowerShell"],
   "projects": [
     {
       "id": "01",
       "name": "aethercode",
-      "repo": "Shreesh-Sree/Aethercode-main",
+      "repo": "stjosephsplacements/AetherCode",
       "subtitle": "open-source coding assessment platform",
       "stack": "go · grpc · postgres · casbin · k8s",
       "points": [
@@ -58,7 +58,7 @@
     {
       "id": "02",
       "name": "aethercode-engine",
-      "repo": "Shreesh-Sree/AetherCode-Execution-Engine",
+      "repo": "stjosephsplacements/AetherCode-Execution-Engine",
       "subtitle": "distributed code judge",
       "stack": "go · redis streams · postgres · sse",
       "points": [

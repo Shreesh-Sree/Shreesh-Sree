@@ -256,7 +256,14 @@ def fetch_live(token: str | None) -> dict:
         out["repos"] = len(own)
         out["stars"] = sum(r.get("stargazers_count", 0) for r in own)
         langs: dict[str, int] = {}
-        for r in own:
+        # featured repos that live in an org (e.g. the Go services) count toward languages too
+        extra = []
+        for p in CFG["projects"]:
+            if p["repo"].split("/")[0].lower() != USER.lower():
+                meta = safe(f"repo {p['repo']}", lambda p=p: gh(f"/repos/{p['repo']}", token))
+                if meta and not meta.get("fork"):
+                    extra.append(meta)
+        for r in own + extra:
             if r.get("archived") or r.get("size", 0) == 0:
                 continue
             got = safe(f"langs {r['name']}", lambda r=r: gh(r["languages_url"], token), {}) or {}
