@@ -1548,7 +1548,7 @@
    "created": "2026-11-03T12:15:52Z",
    "key": "kubernetes-sigs/cluster-api#14451",
    "state": "open",
-   "title": "cmd/clusterctl: include provider namespace Secrets in owner graph discovery",
+   "title": "\ud83d\udc1b cmd/clusterctl: include provider namespace Secrets in owner graph discovery",
    "url": "https://github.com/kubernetes-sigs/cluster-api/pull/14451"
   },
   {
