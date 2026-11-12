@@ -1,10 +1,6 @@
 {
  "calendar": [
   [
-   "2025-11-12",
-   0
-  ],
-  [
    "2025-11-13",
    0
   ],
@@ -1459,10 +1455,14 @@
   [
    "2026-11-11",
    1
+  ],
+  [
+   "2026-11-12",
+   1
   ]
  ],
- "commits_ytd": 2045,
- "contrib_total": 2771,
+ "commits_ytd": 2046,
+ "contrib_total": 2772,
  "contributed_to": 32,
  "created_at": "2024-12-19T05:52:32Z",
  "featured": {
@@ -1561,7 +1561,7 @@
   {
    "created": "2026-11-03T11:50:07Z",
    "key": "capitalone/datacompy#598",
-   "state": "open",
+   "state": "merged",
    "title": "Fix NumPy scalar values in report JSON exports",
    "url": "https://github.com/capitalone/datacompy/pull/598"
   },
@@ -1573,7 +1573,7 @@
    "url": "https://github.com/moby/moby/pull/54105"
   }
  ],
- "prs_merged": 203,
+ "prs_merged": 204,
  "repos": 56,
  "stars": 5,
  "upstream_total": 37
