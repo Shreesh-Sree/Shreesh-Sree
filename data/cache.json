@@ -1458,11 +1458,11 @@
   ],
   [
    "2026-11-17",
-   0
+   22
   ]
  ],
- "commits_ytd": 2050,
- "contrib_total": 2783,
+ "commits_ytd": 2055,
+ "contrib_total": 2805,
  "contributed_to": 33,
  "created_at": "2024-12-19T05:52:32Z",
  "featured": {
@@ -1477,14 +1477,14 @@
    "forks": 0,
    "lang": null,
    "license": "MIT",
-   "pushed": "2026-10-27T18:06:22Z",
+   "pushed": "2026-11-17T17:49:56Z",
    "stars": 0
   },
   "stjosephsplacements/AetherCode": {
    "forks": 0,
    "lang": "Go",
    "license": "AGPL-3.0",
-   "pushed": "2026-11-17T03:44:29Z",
+   "pushed": "2026-11-17T19:06:33Z",
    "stars": 1
   },
   "stjosephsplacements/AetherCode-Execution-Engine": {
@@ -1495,31 +1495,31 @@
    "stars": 25
   }
  },
- "followers": 32,
+ "followers": 31,
  "languages": [
   [
    "Python",
-   0.7983477313927696
+   0.8001768696908494
   ],
   [
    "TypeScript",
-   0.09773489265862792
+   0.09361274799320642
   ],
   [
    "Go",
-   0.03791229348562023
+   0.03885620284373306
   ],
   [
    "PLpgSQL",
-   0.026605209838134917
+   0.02789557464694849
   ],
   [
    "C",
-   0.01622108629757252
+   0.016245266581109332
   ],
   [
    "JavaScript",
-   0.010841462182577533
+   0.010857623222887611
   ]
  ],
  "prs": [
@@ -1545,10 +1545,17 @@
    "url": "https://github.com/golang/go/pull/81613"
   },
   {
+   "created": "2026-11-17T17:53:26Z",
+   "key": "RunanywhereAI/runanywhere-sdks#1331",
+   "state": "open",
+   "title": "fix(electron): clear stale RAC error details and define populate_error for INT32_MIN",
+   "url": "https://github.com/RunanywhereAI/runanywhere-sdks/pull/1331"
+  },
+  {
    "created": "2026-11-03T12:15:52Z",
    "key": "kubernetes-sigs/cluster-api#14451",
-   "state": "open",
-   "title": "\ud83d\udc1b cmd/clusterctl: include provider namespace Secrets in owner graph discovery",
+   "state": "merged",
+   "title": "\ud83c\udf31 cmd/clusterctl: remove dead provider-namespace Secret discovery code",
    "url": "https://github.com/kubernetes-sigs/cluster-api/pull/14451"
   },
   {
@@ -1564,17 +1571,10 @@
    "state": "merged",
    "title": "Fix NumPy scalar values in report JSON exports",
    "url": "https://github.com/capitalone/datacompy/pull/598"
-  },
-  {
-   "created": "2026-11-03T11:39:50Z",
-   "key": "moby/moby#54105",
-   "state": "open",
-   "title": "daemon/containerd: enable SyncFs on layer unpack to prevent 0-byte snapshot corruption",
-   "url": "https://github.com/moby/moby/pull/54105"
   }
  ],
- "prs_merged": 205,
+ "prs_merged": 218,
  "repos": 56,
  "stars": 5,
- "upstream_total": 37
+ "upstream_total": 38
 }
