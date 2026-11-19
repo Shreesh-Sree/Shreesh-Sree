@@ -1,10 +1,6 @@
 {
  "calendar": [
   [
-   "2025-11-19",
-   0
-  ],
-  [
    "2025-11-20",
    0
   ],
@@ -1459,10 +1455,14 @@
   [
    "2026-11-18",
    26
+  ],
+  [
+   "2026-11-19",
+   14
   ]
  ],
- "commits_ytd": 2058,
- "contrib_total": 2831,
+ "commits_ytd": 2061,
+ "contrib_total": 2845,
  "contributed_to": 33,
  "created_at": "2024-12-19T05:52:32Z",
  "featured": {
@@ -1483,15 +1483,15 @@
   "stjosephsplacements/AetherCode": {
    "forks": 0,
    "lang": "Go",
-   "license": "AGPL-3.0",
-   "pushed": "2026-11-18T19:42:34Z",
+   "license": "NOASSERTION",
+   "pushed": "2026-11-19T04:11:08Z",
    "stars": 1
   },
   "stjosephsplacements/AetherCode-Execution-Engine": {
    "forks": 9,
-   "lang": "Go",
+   "lang": "Rust",
    "license": "AGPL-3.0",
-   "pushed": "2026-11-18T19:42:14Z",
+   "pushed": "2026-11-19T03:26:40Z",
    "stars": 25
   }
  },
@@ -1499,27 +1499,27 @@
  "languages": [
   [
    "Python",
-   0.7988707933523604
+   0.7921247832233191
   ],
   [
    "TypeScript",
-   0.09361306357378947
+   0.09282456786341504
   ],
   [
    "Go",
-   0.039323541824006505
+   0.03928617625529131
   ],
   [
    "PLpgSQL",
-   0.02880114854183515
+   0.02855793920008926
   ],
   [
    "C",
-   0.016217220133932824
+   0.016080274920515628
   ],
   [
    "JavaScript",
-   0.010838878208476014
+   0.010747350037975513
   ]
  ],
  "prs": [
@@ -1573,7 +1573,7 @@
    "url": "https://github.com/capitalone/datacompy/pull/598"
   }
  ],
- "prs_merged": 237,
+ "prs_merged": 246,
  "repos": 56,
  "stars": 8,
  "upstream_total": 38
