@@ -1458,11 +1458,11 @@
   ],
   [
    "2026-11-22",
-   0
+   5
   ]
  ],
  "commits_ytd": 2061,
- "contrib_total": 2899,
+ "contrib_total": 2904,
  "contributed_to": 33,
  "created_at": "2024-12-19T05:52:32Z",
  "featured": {
@@ -1484,7 +1484,7 @@
    "forks": 0,
    "lang": "Go",
    "license": "NOASSERTION",
-   "pushed": "2026-11-21T18:36:47Z",
+   "pushed": "2026-11-22T13:22:28Z",
    "stars": 1
   },
   "stjosephsplacements/AetherCode-Execution-Engine": {
@@ -1573,7 +1573,7 @@
    "url": "https://github.com/capitalone/datacompy/pull/598"
   }
  ],
- "prs_merged": 247,
+ "prs_merged": 252,
  "repos": 56,
  "stars": 8,
  "upstream_total": 38
