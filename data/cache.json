@@ -1458,19 +1458,19 @@
   ],
   [
    "2026-11-26",
-   21
+   25
   ]
  ],
  "commits_ytd": 2116,
- "contrib_total": 2990,
- "contributed_to": 33,
+ "contrib_total": 2994,
+ "contributed_to": 34,
  "created_at": "2024-12-19T05:52:32Z",
  "featured": {
   "Shreesh-Sree/LearnHouse-StJosephs": {
    "forks": 0,
    "lang": "Python",
    "license": "AGPL-3.0",
-   "pushed": "2026-10-22T06:15:04Z",
+   "pushed": "2026-11-26T09:09:16Z",
    "stars": 0
   },
   "Shreesh-Sree/llama.cpp": {
@@ -1573,7 +1573,7 @@
    "url": "https://github.com/capitalone/datacompy/pull/598"
   }
  ],
- "prs_merged": 263,
+ "prs_merged": 267,
  "repos": 56,
  "stars": 5,
  "upstream_total": 38
